@@ -9,7 +9,7 @@ This design is based on **a key insight**: the low-rank nature of infrared image
 
 To the best of our knowledge, this is the **first** work to directly learn low-rank background structures using deep neural networks in an end-to-end manner.
 
-Extensive experiments on multiple public datasets demonstrate that LRRNet outperforms 38 state-of-the-art methods in terms of detection accuracy, robustness, and computational efficiency. Remarkably, it achieves real-time performance with an average speed of 82.34 FPS (on an NVIDIA 3080Ti GPU with an input resolution of 512 × 512 and a batch size of 1.). Evaluations on the challenging NoisySIRST dataset further confirm the model’s resilience to sensor noise.
+Extensive experiments on multiple public datasets demonstrate that LRRNet outperforms 38 state-of-the-art methods in terms of detection accuracy, robustness, and computational efficiency. Remarkably, it achieves real-time performance with an average speed of 82.34 FPS (on an NVIDIA 3080Ti GPU with an input resolution of 512 × 512 and a batch size of 1). Evaluations on the challenging NoisySIRST dataset further confirm the model’s resilience to sensor noise.
 
 ![](https://github.com/HaLongbao/LRRNet/blob/main/visual-v1.png)
 Visualization of the LRRNet results on the NoisySIRST dataset under Gaussian white noise interference with a variance of 30.
