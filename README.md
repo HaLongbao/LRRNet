@@ -11,3 +11,6 @@ To the best of our knowledge, this is the **first** work to directly learn low-r
 
 Extensive experiments on multiple public datasets demonstrate that LRRNet outperforms 38 state-of-the-art methods in terms of detection accuracy, robustness, and computational efficiency. Remarkably, it achieves real-time performance with an average speed of 82.34 FPS. Evaluations on the challenging NoisySIRST dataset further confirm the model’s resilience to sensor noise.
 
+![](https://github.com/HaLongbao/LRRNet/blob/main/visual-v1.png)
+Visualization of the LRRNet results on the NoisySIRST dataset under Gaussian white noise interference with a variance of 30.
+
