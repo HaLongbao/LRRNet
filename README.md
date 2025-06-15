@@ -14,3 +14,11 @@ Extensive experiments on multiple public datasets demonstrate that LRRNet outper
 ![](https://github.com/HaLongbao/LRRNet/blob/main/visual-v1.png)
 Visualization of the LRRNet results on the NoisySIRST dataset under Gaussian white noise interference with a variance of 30.
 
+If you find this paper useful, please cite it as:
+```bibtex
+@article{LRRNet,
+  title={It’s Not the Target, It’s the Background: Rethinking Infrared Small Target Detection via Deep Patch-Free Low-Rank Representations},
+  author={Zhang, Guoyi and Xu, Guangsheng and Chen, Siyang and Wang, Han and Zhang, Xiaohu},
+  journal={arXiv preprint arXiv:2506.10425},
+  year={2025}
+}
