@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 ### Datasets Link
 
-We used **SIRSTV1**, **NUDT-SIRST**, **IRSTD-1K** and **SIRST-Aug** for both training and test.
+We used **NUDT-SIRST**, **IRSTD-1K** and **SIRST-Aug** for both training and test.
 
 - **NUDT-SIRST** can be found and downloaded here: [NUDT-SIRST](https://github.com/YeRen123455/Infrared-Small-Target-Detection)
 - **IRSTD-1K** can be found and downloaded here: [IRSTD-1K](https://github.com/RuiZhang97/ISNet)
@@ -76,10 +76,6 @@ We used **SIRSTV1**, **NUDT-SIRST**, **IRSTD-1K** and **SIRST-Aug** for both tra
 Note:   
     
 You can also refer to [Google Drive](https://drive.google.com/file/d/1rs6ORtekqHmuPEPhyq61iPPVOxx2QF7B/view?usp=drive_link). - Wu Fengyi's settings for ready-to-use datasets.
-
-For the **SIRSTV1** dataset, we still maintain the structure provided by the official source.
-<!-- The NoisySIRST dataset can be accessible via:
-https://drive.google.com/drive/folders/1RGpVHccGb8B4_spX_RZPEMW9pyeXOIaC?usp=sharing -->
 
 Please first download these datasets and place NUDT-SIRST, IRSTD-1K, and sirst_aug in the folder `./datasets/`; for the SIRSTV1 dataset, please maintain its official directory structure.
 
