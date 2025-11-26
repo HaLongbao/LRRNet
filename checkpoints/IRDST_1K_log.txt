@@ -1,0 +1,802 @@
+2025-11-25 23:13:41,593 Robust PCA Network INFO: Namespace(base_dir='./log', base_size=512, batch_size=8, crop_size=512, dataset='irstd1k', epochs=400, folder_name='20251125T23-13-38_rpcanet_irstd1k', gpu='5', log_per_iter=100, logger=<Logger Robust PCA Network (INFO)>, lr=0.0001, lr_scheduler='poly', net_name='rpcanet', save_folder='./log/20251125T23-13-38_rpcanet_irstd1k', save_iter_step=100, seed=1, time_name='20251125T23-13-38', warm_up_epochs=0)
+2025-11-25 23:13:41,594 Robust PCA Network INFO: Using device: cuda:5
+2025-11-25 23:14:23,698 Robust PCA Network INFO: Epoch-Iter: [1/400]-[0/100] || Lr: 0.000100 || Loss: 1.8508=0.9990+0.0416 || Cost Time: 0:00:42 || Estimated Time: 4:39:59
+2025-11-25 23:14:30,086 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.0011/0.0011, F1: 0.0021/0.0021
+2025-11-25 23:15:10,580 Robust PCA Network INFO: Epoch-Iter: [2/400]-[0/100] || Lr: 0.000100 || Loss: 1.8225=0.9996+0.0288 || Cost Time: 0:01:28 || Estimated Time: 4:55:08
+2025-11-25 23:15:17,044 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.0033/0.0033, F1: 0.0066/0.0066
+2025-11-25 23:15:57,898 Robust PCA Network INFO: Epoch-Iter: [3/400]-[0/100] || Lr: 0.000099 || Loss: 1.8063=0.9977+0.0258 || Cost Time: 0:02:16 || Estimated Time: 5:00:37
+2025-11-25 23:16:04,209 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.0057/0.0057, F1: 0.0114/0.0114
+2025-11-25 23:16:45,720 Robust PCA Network INFO: Epoch-Iter: [4/400]-[0/100] || Lr: 0.000099 || Loss: 1.7973=0.9965+0.0156 || Cost Time: 0:03:04 || Estimated Time: 5:03:48
+2025-11-25 23:16:52,336 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.0276/0.0276, F1: 0.0538/0.0538
+2025-11-25 23:17:33,453 Robust PCA Network INFO: Epoch-Iter: [5/400]-[0/100] || Lr: 0.000099 || Loss: 1.7312=0.9595+0.0338 || Cost Time: 0:03:51 || Estimated Time: 5:05:16
+2025-11-25 23:17:39,528 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.1036/0.1036, F1: 0.1878/0.1878
+2025-11-25 23:18:21,750 Robust PCA Network INFO: Epoch-Iter: [6/400]-[0/100] || Lr: 0.000099 || Loss: 1.4040=0.7790+0.0162 || Cost Time: 0:04:40 || Estimated Time: 5:06:36
+2025-11-25 23:18:27,694 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.3797/0.3797, F1: 0.5504/0.5504
+2025-11-25 23:19:09,539 Robust PCA Network INFO: Epoch-Iter: [7/400]-[0/100] || Lr: 0.000098 || Loss: 1.2782=0.7085+0.0286 || Cost Time: 0:05:27 || Estimated Time: 5:06:51
+2025-11-25 23:19:15,355 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.4668/0.4668, F1: 0.6365/0.6365
+2025-11-25 23:19:57,803 Robust PCA Network INFO: Epoch-Iter: [8/400]-[0/100] || Lr: 0.000098 || Loss: 0.9504=0.5265+0.0264 || Cost Time: 0:06:16 || Estimated Time: 5:07:14
+2025-11-25 23:20:03,507 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5188/0.5188, F1: 0.6831/0.6831
+2025-11-25 23:20:45,242 Robust PCA Network INFO: Epoch-Iter: [9/400]-[0/100] || Lr: 0.000098 || Loss: 0.6828=0.3774+0.0347 || Cost Time: 0:07:03 || Estimated Time: 5:06:45
+2025-11-25 23:20:51,310 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.4943/0.5188, F1: 0.6615/0.6831
+2025-11-25 23:21:33,859 Robust PCA Network INFO: Epoch-Iter: [10/400]-[0/100] || Lr: 0.000098 || Loss: 0.9237=0.5113+0.0344 || Cost Time: 0:07:52 || Estimated Time: 5:06:58
+2025-11-25 23:21:39,844 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5389/0.5389, F1: 0.7003/0.7003
+2025-11-25 23:22:22,685 Robust PCA Network INFO: Epoch-Iter: [11/400]-[0/100] || Lr: 0.000098 || Loss: 0.7209=0.3991+0.0232 || Cost Time: 0:08:41 || Estimated Time: 5:07:07
+2025-11-25 23:22:28,561 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5889/0.5889, F1: 0.7412/0.7412
+2025-11-25 23:23:10,992 Robust PCA Network INFO: Epoch-Iter: [12/400]-[0/100] || Lr: 0.000097 || Loss: 0.8268=0.4579+0.0255 || Cost Time: 0:09:29 || Estimated Time: 5:06:50
+2025-11-25 23:23:17,304 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5475/0.5889, F1: 0.7076/0.7412
+2025-11-25 23:23:59,909 Robust PCA Network INFO: Epoch-Iter: [13/400]-[0/100] || Lr: 0.000097 || Loss: 0.9467=0.5246+0.0231 || Cost Time: 0:10:18 || Estimated Time: 5:06:46
+2025-11-25 23:24:05,634 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5415/0.5889, F1: 0.7025/0.7412
+2025-11-25 23:24:47,513 Robust PCA Network INFO: Epoch-Iter: [14/400]-[0/100] || Lr: 0.000097 || Loss: 0.4924=0.2722+0.0232 || Cost Time: 0:11:05 || Estimated Time: 5:06:00
+2025-11-25 23:24:53,482 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5725/0.5889, F1: 0.7281/0.7412
+2025-11-25 23:25:35,836 Robust PCA Network INFO: Epoch-Iter: [15/400]-[0/100] || Lr: 0.000097 || Loss: 0.7307=0.4034+0.0447 || Cost Time: 0:11:54 || Estimated Time: 5:05:32
+2025-11-25 23:25:42,243 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5537/0.5889, F1: 0.7128/0.7412
+2025-11-25 23:26:24,907 Robust PCA Network INFO: Epoch-Iter: [16/400]-[0/100] || Lr: 0.000096 || Loss: 0.6221=0.3435+0.0379 || Cost Time: 0:12:43 || Estimated Time: 5:05:19
+2025-11-25 23:26:31,184 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6023/0.6023, F1: 0.7518/0.7518
+2025-11-25 23:27:13,299 Robust PCA Network INFO: Epoch-Iter: [17/400]-[0/100] || Lr: 0.000096 || Loss: 0.5222=0.2887+0.0254 || Cost Time: 0:13:31 || Estimated Time: 5:04:47
+2025-11-25 23:27:19,413 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6145/0.6145, F1: 0.7612/0.7612
+2025-11-25 23:28:01,490 Robust PCA Network INFO: Epoch-Iter: [18/400]-[0/100] || Lr: 0.000096 || Loss: 0.6282=0.3478+0.0211 || Cost Time: 0:14:19 || Estimated Time: 5:04:08
+2025-11-25 23:28:08,255 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6188/0.6188, F1: 0.7645/0.7645
+2025-11-25 23:28:49,359 Robust PCA Network INFO: Epoch-Iter: [19/400]-[0/100] || Lr: 0.000096 || Loss: 0.8851=0.4903+0.0240 || Cost Time: 0:15:07 || Estimated Time: 5:03:23
+2025-11-25 23:28:55,205 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5865/0.6188, F1: 0.7394/0.7645
+2025-11-25 23:29:37,835 Robust PCA Network INFO: Epoch-Iter: [20/400]-[0/100] || Lr: 0.000095 || Loss: 0.4201=0.2315+0.0335 || Cost Time: 0:15:56 || Estimated Time: 5:02:48
+2025-11-25 23:29:44,460 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6235/0.6235, F1: 0.7681/0.7681
+2025-11-25 23:30:26,763 Robust PCA Network INFO: Epoch-Iter: [21/400]-[0/100] || Lr: 0.000095 || Loss: 0.6618=0.3668+0.0152 || Cost Time: 0:16:45 || Estimated Time: 5:02:20
+2025-11-25 23:30:33,166 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6151/0.6235, F1: 0.7617/0.7681
+2025-11-25 23:31:15,441 Robust PCA Network INFO: Epoch-Iter: [22/400]-[0/100] || Lr: 0.000095 || Loss: 0.5996=0.3323+0.0146 || Cost Time: 0:17:33 || Estimated Time: 5:01:46
+2025-11-25 23:31:21,570 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5918/0.6235, F1: 0.7436/0.7681
+2025-11-25 23:32:03,821 Robust PCA Network INFO: Epoch-Iter: [23/400]-[0/100] || Lr: 0.000095 || Loss: 0.6442=0.3565+0.0250 || Cost Time: 0:18:22 || Estimated Time: 5:01:06
+2025-11-25 23:32:10,010 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5850/0.6235, F1: 0.7382/0.7681
+2025-11-25 23:32:52,237 Robust PCA Network INFO: Epoch-Iter: [24/400]-[0/100] || Lr: 0.000095 || Loss: 0.8690=0.4810+0.0315 || Cost Time: 0:19:10 || Estimated Time: 5:00:26
+2025-11-25 23:32:58,485 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6306/0.6306, F1: 0.7735/0.7735
+2025-11-25 23:33:39,883 Robust PCA Network INFO: Epoch-Iter: [25/400]-[0/100] || Lr: 0.000094 || Loss: 0.4590=0.2536+0.0244 || Cost Time: 0:19:58 || Estimated Time: 4:59:34
+2025-11-25 23:33:45,780 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6260/0.6306, F1: 0.7700/0.7735
+2025-11-25 23:34:28,197 Robust PCA Network INFO: Epoch-Iter: [26/400]-[0/100] || Lr: 0.000094 || Loss: 0.4575=0.2525+0.0289 || Cost Time: 0:20:46 || Estimated Time: 4:58:51
+2025-11-25 23:34:34,476 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6804/0.6804, F1: 0.8098/0.8098
+2025-11-25 23:35:16,405 Robust PCA Network INFO: Epoch-Iter: [27/400]-[0/100] || Lr: 0.000094 || Loss: 0.6965=0.3848+0.0369 || Cost Time: 0:21:34 || Estimated Time: 4:58:07
+2025-11-25 23:35:22,692 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5564/0.6804, F1: 0.7149/0.8098
+2025-11-25 23:36:04,485 Robust PCA Network INFO: Epoch-Iter: [28/400]-[0/100] || Lr: 0.000094 || Loss: 0.5440=0.3004+0.0331 || Cost Time: 0:22:22 || Estimated Time: 4:57:21
+2025-11-25 23:36:10,421 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6165/0.6804, F1: 0.7627/0.8098
+2025-11-25 23:36:51,452 Robust PCA Network INFO: Epoch-Iter: [29/400]-[0/100] || Lr: 0.000093 || Loss: 0.7987=0.4421+0.0278 || Cost Time: 0:23:09 || Estimated Time: 4:56:20
+2025-11-25 23:36:57,819 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5998/0.6804, F1: 0.7498/0.8098
+2025-11-25 23:37:39,865 Robust PCA Network INFO: Epoch-Iter: [30/400]-[0/100] || Lr: 0.000093 || Loss: 0.5079=0.2808+0.0245 || Cost Time: 0:23:58 || Estimated Time: 4:55:38
+2025-11-25 23:37:46,387 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6243/0.6804, F1: 0.7687/0.8098
+2025-11-25 23:38:28,605 Robust PCA Network INFO: Epoch-Iter: [31/400]-[0/100] || Lr: 0.000093 || Loss: 0.5728=0.3169+0.0237 || Cost Time: 0:24:47 || Estimated Time: 4:55:00
+2025-11-25 23:38:34,605 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6307/0.6804, F1: 0.7735/0.8098
+2025-11-25 23:39:17,001 Robust PCA Network INFO: Epoch-Iter: [32/400]-[0/100] || Lr: 0.000093 || Loss: 0.6564=0.3637+0.0169 || Cost Time: 0:25:35 || Estimated Time: 4:54:17
+2025-11-25 23:39:23,156 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6034/0.6804, F1: 0.7527/0.8098
+2025-11-25 23:40:05,641 Robust PCA Network INFO: Epoch-Iter: [33/400]-[0/100] || Lr: 0.000093 || Loss: 0.8442=0.4656+0.0607 || Cost Time: 0:26:24 || Estimated Time: 4:53:36
+2025-11-25 23:40:12,218 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6319/0.6804, F1: 0.7744/0.8098
+2025-11-25 23:40:54,000 Robust PCA Network INFO: Epoch-Iter: [34/400]-[0/100] || Lr: 0.000092 || Loss: 0.5731=0.3169+0.0261 || Cost Time: 0:27:12 || Estimated Time: 4:52:52
+2025-11-25 23:41:00,126 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6467/0.6804, F1: 0.7855/0.8098
+2025-11-25 23:41:42,165 Robust PCA Network INFO: Epoch-Iter: [35/400]-[0/100] || Lr: 0.000092 || Loss: 0.7103=0.3916+0.0526 || Cost Time: 0:28:00 || Estimated Time: 4:52:05
+2025-11-25 23:41:48,040 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6268/0.6804, F1: 0.7706/0.8098
+2025-11-25 23:42:30,058 Robust PCA Network INFO: Epoch-Iter: [36/400]-[0/100] || Lr: 0.000092 || Loss: 0.6859=0.3795+0.0282 || Cost Time: 0:28:48 || Estimated Time: 4:51:16
+2025-11-25 23:42:35,737 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6455/0.6804, F1: 0.7846/0.8098
+2025-11-25 23:43:17,755 Robust PCA Network INFO: Epoch-Iter: [37/400]-[0/100] || Lr: 0.000092 || Loss: 0.5164=0.2858+0.0199 || Cost Time: 0:29:36 || Estimated Time: 4:50:25
+2025-11-25 23:43:23,882 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6450/0.6804, F1: 0.7842/0.8098
+2025-11-25 23:44:06,734 Robust PCA Network INFO: Epoch-Iter: [38/400]-[0/100] || Lr: 0.000091 || Loss: 0.6092=0.3379+0.0102 || Cost Time: 0:30:25 || Estimated Time: 4:49:46
+2025-11-25 23:44:12,411 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6432/0.6804, F1: 0.7829/0.8098
+2025-11-25 23:44:54,179 Robust PCA Network INFO: Epoch-Iter: [39/400]-[0/100] || Lr: 0.000091 || Loss: 0.6270=0.3458+0.0453 || Cost Time: 0:31:12 || Estimated Time: 4:48:53
+2025-11-25 23:45:00,297 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6437/0.6804, F1: 0.7833/0.8098
+2025-11-25 23:45:42,926 Robust PCA Network INFO: Epoch-Iter: [40/400]-[0/100] || Lr: 0.000091 || Loss: 0.3820=0.2109+0.0220 || Cost Time: 0:32:01 || Estimated Time: 4:48:11
+2025-11-25 23:45:48,675 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6360/0.6804, F1: 0.7775/0.8098
+2025-11-25 23:46:30,601 Robust PCA Network INFO: Epoch-Iter: [41/400]-[0/100] || Lr: 0.000091 || Loss: 0.8144=0.4508+0.0300 || Cost Time: 0:32:49 || Estimated Time: 4:47:20
+2025-11-25 23:46:36,879 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6382/0.6804, F1: 0.7791/0.8098
+2025-11-25 23:47:19,730 Robust PCA Network INFO: Epoch-Iter: [42/400]-[0/100] || Lr: 0.000091 || Loss: 0.5278=0.2918+0.0241 || Cost Time: 0:33:38 || Estimated Time: 4:46:42
+2025-11-25 23:47:26,364 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6314/0.6804, F1: 0.7741/0.8098
+2025-11-25 23:48:08,900 Robust PCA Network INFO: Epoch-Iter: [43/400]-[0/100] || Lr: 0.000090 || Loss: 0.6893=0.3813+0.0285 || Cost Time: 0:34:27 || Estimated Time: 4:46:03
+2025-11-25 23:48:14,785 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6000/0.6804, F1: 0.7500/0.8098
+2025-11-25 23:48:57,040 Robust PCA Network INFO: Epoch-Iter: [44/400]-[0/100] || Lr: 0.000090 || Loss: 0.4415=0.2429+0.0422 || Cost Time: 0:35:15 || Estimated Time: 4:45:15
+2025-11-25 23:49:03,093 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6456/0.6804, F1: 0.7846/0.8098
+2025-11-25 23:49:45,646 Robust PCA Network INFO: Epoch-Iter: [45/400]-[0/100] || Lr: 0.000090 || Loss: 0.5559=0.3073+0.0275 || Cost Time: 0:36:04 || Estimated Time: 4:44:31
+2025-11-25 23:49:51,985 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6503/0.6804, F1: 0.7881/0.8098
+2025-11-25 23:50:33,439 Robust PCA Network INFO: Epoch-Iter: [46/400]-[0/100] || Lr: 0.000090 || Loss: 0.6327=0.3497+0.0312 || Cost Time: 0:36:51 || Estimated Time: 4:43:41
+2025-11-25 23:50:39,462 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5735/0.6804, F1: 0.7289/0.8098
+2025-11-25 23:51:21,645 Robust PCA Network INFO: Epoch-Iter: [47/400]-[0/100] || Lr: 0.000089 || Loss: 0.7842=0.4350+0.0125 || Cost Time: 0:37:40 || Estimated Time: 4:42:54
+2025-11-25 23:51:27,246 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6306/0.6804, F1: 0.7735/0.8098
+2025-11-25 23:52:08,747 Robust PCA Network INFO: Epoch-Iter: [48/400]-[0/100] || Lr: 0.000089 || Loss: 0.6142=0.3382+0.0540 || Cost Time: 0:38:27 || Estimated Time: 4:41:59
+2025-11-25 23:52:14,645 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6600/0.6804, F1: 0.7952/0.8098
+2025-11-25 23:52:56,636 Robust PCA Network INFO: Epoch-Iter: [49/400]-[0/100] || Lr: 0.000089 || Loss: 0.4211=0.2322+0.0310 || Cost Time: 0:39:15 || Estimated Time: 4:41:09
+2025-11-25 23:53:02,683 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6675/0.6804, F1: 0.8006/0.8098
+2025-11-25 23:53:45,943 Robust PCA Network INFO: Epoch-Iter: [50/400]-[0/100] || Lr: 0.000089 || Loss: 0.4452=0.2441+0.0571 || Cost Time: 0:40:04 || Estimated Time: 4:40:30
+2025-11-25 23:53:52,038 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6840/0.6840, F1: 0.8124/0.8124
+2025-11-25 23:54:33,428 Robust PCA Network INFO: Epoch-Iter: [51/400]-[0/100] || Lr: 0.000088 || Loss: 0.8047=0.4461+0.0173 || Cost Time: 0:40:51 || Estimated Time: 4:39:38
+2025-11-25 23:54:39,093 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6408/0.6840, F1: 0.7811/0.8124
+2025-11-25 23:55:20,151 Robust PCA Network INFO: Epoch-Iter: [52/400]-[0/100] || Lr: 0.000088 || Loss: 0.5666=0.3125+0.0410 || Cost Time: 0:41:38 || Estimated Time: 4:38:41
+2025-11-25 23:55:26,057 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6476/0.6840, F1: 0.7861/0.8124
+2025-11-25 23:56:08,122 Robust PCA Network INFO: Epoch-Iter: [53/400]-[0/100] || Lr: 0.000088 || Loss: 0.6659=0.3690+0.0155 || Cost Time: 0:42:26 || Estimated Time: 4:37:52
+2025-11-25 23:56:14,174 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6428/0.6840, F1: 0.7826/0.8124
+2025-11-25 23:56:55,660 Robust PCA Network INFO: Epoch-Iter: [54/400]-[0/100] || Lr: 0.000088 || Loss: 0.6359=0.3518+0.0263 || Cost Time: 0:43:14 || Estimated Time: 4:37:01
+2025-11-25 23:57:01,792 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6240/0.6840, F1: 0.7685/0.8124
+2025-11-25 23:57:43,438 Robust PCA Network INFO: Epoch-Iter: [55/400]-[0/100] || Lr: 0.000088 || Loss: 0.4630=0.2560+0.0208 || Cost Time: 0:44:01 || Estimated Time: 4:36:11
+2025-11-25 23:57:49,136 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6727/0.6840, F1: 0.8043/0.8124
+2025-11-25 23:58:29,991 Robust PCA Network INFO: Epoch-Iter: [56/400]-[0/100] || Lr: 0.000087 || Loss: 0.3802=0.2103+0.0160 || Cost Time: 0:44:48 || Estimated Time: 4:35:14
+2025-11-25 23:58:35,769 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6601/0.6840, F1: 0.7952/0.8124
+2025-11-25 23:59:18,055 Robust PCA Network INFO: Epoch-Iter: [57/400]-[0/100] || Lr: 0.000087 || Loss: 0.5460=0.3015+0.0321 || Cost Time: 0:45:36 || Estimated Time: 4:34:26
+2025-11-25 23:59:24,330 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6522/0.6840, F1: 0.7895/0.8124
+2025-11-26 00:00:06,374 Robust PCA Network INFO: Epoch-Iter: [58/400]-[0/100] || Lr: 0.000087 || Loss: 0.4577=0.2526+0.0293 || Cost Time: 0:46:24 || Estimated Time: 4:33:40
+2025-11-26 00:00:12,473 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6722/0.6840, F1: 0.8039/0.8124
+2025-11-26 00:00:54,208 Robust PCA Network INFO: Epoch-Iter: [59/400]-[0/100] || Lr: 0.000087 || Loss: 0.4498=0.2477+0.0391 || Cost Time: 0:47:12 || Estimated Time: 4:32:51
+2025-11-26 00:01:00,130 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6891/0.6891, F1: 0.8160/0.8160
+2025-11-26 00:01:42,836 Robust PCA Network INFO: Epoch-Iter: [60/400]-[0/100] || Lr: 0.000086 || Loss: 0.5743=0.3183+0.0126 || Cost Time: 0:48:01 || Estimated Time: 4:32:07
+2025-11-26 00:01:48,688 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6534/0.6891, F1: 0.7904/0.8160
+2025-11-26 00:02:30,546 Robust PCA Network INFO: Epoch-Iter: [61/400]-[0/100] || Lr: 0.000086 || Loss: 0.9078=0.5021+0.0394 || Cost Time: 0:48:48 || Estimated Time: 4:31:17
+2025-11-26 00:02:36,739 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6645/0.6891, F1: 0.7984/0.8160
+2025-11-26 00:03:18,958 Robust PCA Network INFO: Epoch-Iter: [62/400]-[0/100] || Lr: 0.000086 || Loss: 0.3534=0.1940+0.0414 || Cost Time: 0:49:37 || Estimated Time: 4:30:31
+2025-11-26 00:03:24,778 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6574/0.6891, F1: 0.7933/0.8160
+2025-11-26 00:04:06,755 Robust PCA Network INFO: Epoch-Iter: [63/400]-[0/100] || Lr: 0.000086 || Loss: 0.4251=0.2344+0.0323 || Cost Time: 0:50:25 || Estimated Time: 4:29:42
+2025-11-26 00:04:12,295 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6498/0.6891, F1: 0.7878/0.8160
+2025-11-26 00:04:53,984 Robust PCA Network INFO: Epoch-Iter: [64/400]-[0/100] || Lr: 0.000085 || Loss: 0.5230=0.2884+0.0375 || Cost Time: 0:51:12 || Estimated Time: 4:28:50
+2025-11-26 00:04:59,875 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6605/0.6891, F1: 0.7955/0.8160
+2025-11-26 00:05:41,991 Robust PCA Network INFO: Epoch-Iter: [65/400]-[0/100] || Lr: 0.000085 || Loss: 0.4775=0.2646+0.0120 || Cost Time: 0:52:00 || Estimated Time: 4:28:02
+2025-11-26 00:05:47,905 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6509/0.6891, F1: 0.7885/0.8160
+2025-11-26 00:06:29,642 Robust PCA Network INFO: Epoch-Iter: [66/400]-[0/100] || Lr: 0.000085 || Loss: 0.5696=0.3155+0.0165 || Cost Time: 0:52:48 || Estimated Time: 4:27:12
+2025-11-26 00:06:35,310 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6656/0.6891, F1: 0.7992/0.8160
+2025-11-26 00:07:17,834 Robust PCA Network INFO: Epoch-Iter: [67/400]-[0/100] || Lr: 0.000085 || Loss: 0.7949=0.4397+0.0335 || Cost Time: 0:53:36 || Estimated Time: 4:26:25
+2025-11-26 00:07:23,893 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6733/0.6891, F1: 0.8047/0.8160
+2025-11-26 00:08:05,853 Robust PCA Network INFO: Epoch-Iter: [68/400]-[0/100] || Lr: 0.000085 || Loss: 0.9068=0.5019+0.0329 || Cost Time: 0:54:24 || Estimated Time: 4:25:37
+2025-11-26 00:08:12,001 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6494/0.6891, F1: 0.7874/0.8160
+2025-11-26 00:08:53,866 Robust PCA Network INFO: Epoch-Iter: [69/400]-[0/100] || Lr: 0.000084 || Loss: 0.4555=0.2518+0.0234 || Cost Time: 0:55:12 || Estimated Time: 4:24:49
+2025-11-26 00:08:59,998 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6584/0.6891, F1: 0.7940/0.8160
+2025-11-26 00:09:41,819 Robust PCA Network INFO: Epoch-Iter: [70/400]-[0/100] || Lr: 0.000084 || Loss: 0.5325=0.2941+0.0292 || Cost Time: 0:56:00 || Estimated Time: 4:24:01
+2025-11-26 00:09:47,541 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6600/0.6891, F1: 0.7952/0.8160
+2025-11-26 00:10:29,958 Robust PCA Network INFO: Epoch-Iter: [71/400]-[0/100] || Lr: 0.000084 || Loss: 0.5070=0.2809+0.0137 || Cost Time: 0:56:48 || Estimated Time: 4:23:13
+2025-11-26 00:10:35,937 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6393/0.6891, F1: 0.7800/0.8160
+2025-11-26 00:11:17,701 Robust PCA Network INFO: Epoch-Iter: [72/400]-[0/100] || Lr: 0.000084 || Loss: 0.7536=0.4177+0.0179 || Cost Time: 0:57:36 || Estimated Time: 4:22:24
+2025-11-26 00:11:23,345 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6578/0.6891, F1: 0.7936/0.8160
+2025-11-26 00:12:05,322 Robust PCA Network INFO: Epoch-Iter: [73/400]-[0/100] || Lr: 0.000083 || Loss: 0.5788=0.3199+0.0297 || Cost Time: 0:58:23 || Estimated Time: 4:21:34
+2025-11-26 00:12:11,742 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6454/0.6891, F1: 0.7845/0.8160
+2025-11-26 00:12:53,435 Robust PCA Network INFO: Epoch-Iter: [74/400]-[0/100] || Lr: 0.000083 || Loss: 0.4343=0.2405+0.0138 || Cost Time: 0:59:11 || Estimated Time: 4:20:47
+2025-11-26 00:12:59,567 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6604/0.6891, F1: 0.7955/0.8160
+2025-11-26 00:13:41,574 Robust PCA Network INFO: Epoch-Iter: [75/400]-[0/100] || Lr: 0.000083 || Loss: 0.4829=0.2659+0.0419 || Cost Time: 0:59:59 || Estimated Time: 4:19:59
+2025-11-26 00:13:47,494 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6159/0.6891, F1: 0.7623/0.8160
+2025-11-26 00:14:29,202 Robust PCA Network INFO: Epoch-Iter: [76/400]-[0/100] || Lr: 0.000083 || Loss: 0.5554=0.3077+0.0141 || Cost Time: 1:00:47 || Estimated Time: 4:19:10
+2025-11-26 00:14:35,344 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6450/0.6891, F1: 0.7842/0.8160
+2025-11-26 00:15:17,477 Robust PCA Network INFO: Epoch-Iter: [77/400]-[0/100] || Lr: 0.000082 || Loss: 0.5313=0.2937+0.0267 || Cost Time: 1:01:35 || Estimated Time: 4:18:23
+2025-11-26 00:15:23,329 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6420/0.6891, F1: 0.7819/0.8160
+2025-11-26 00:16:06,167 Robust PCA Network INFO: Epoch-Iter: [78/400]-[0/100] || Lr: 0.000082 || Loss: 0.3946=0.2178+0.0241 || Cost Time: 1:02:24 || Estimated Time: 4:17:38
+2025-11-26 00:16:11,782 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6180/0.6891, F1: 0.7639/0.8160
+2025-11-26 00:16:53,513 Robust PCA Network INFO: Epoch-Iter: [79/400]-[0/100] || Lr: 0.000082 || Loss: 0.4582=0.2530+0.0278 || Cost Time: 1:03:11 || Estimated Time: 4:16:47
+2025-11-26 00:16:59,768 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6376/0.6891, F1: 0.7787/0.8160
+2025-11-26 00:17:42,172 Robust PCA Network INFO: Epoch-Iter: [80/400]-[0/100] || Lr: 0.000082 || Loss: 0.5194=0.2870+0.0279 || Cost Time: 1:04:00 || Estimated Time: 4:16:02
+2025-11-26 00:17:48,286 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6612/0.6891, F1: 0.7961/0.8160
+2025-11-26 00:18:29,275 Robust PCA Network INFO: Epoch-Iter: [81/400]-[0/100] || Lr: 0.000082 || Loss: 0.6025=0.3325+0.0390 || Cost Time: 1:04:47 || Estimated Time: 4:15:10
+2025-11-26 00:18:35,198 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6909/0.6909, F1: 0.8172/0.8172
+2025-11-26 00:19:16,562 Robust PCA Network INFO: Epoch-Iter: [82/400]-[0/100] || Lr: 0.000081 || Loss: 0.7658=0.4225+0.0520 || Cost Time: 1:05:34 || Estimated Time: 4:14:19
+2025-11-26 00:19:22,366 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6379/0.6909, F1: 0.7790/0.8172
+2025-11-26 00:20:05,265 Robust PCA Network INFO: Epoch-Iter: [83/400]-[0/100] || Lr: 0.000081 || Loss: 0.5440=0.3010+0.0216 || Cost Time: 1:06:23 || Estimated Time: 4:13:34
+2025-11-26 00:20:11,323 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6564/0.6909, F1: 0.7926/0.8172
+2025-11-26 00:20:52,581 Robust PCA Network INFO: Epoch-Iter: [84/400]-[0/100] || Lr: 0.000081 || Loss: 0.7062=0.3909+0.0257 || Cost Time: 1:07:10 || Estimated Time: 4:12:44
+2025-11-26 00:20:58,337 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6552/0.6909, F1: 0.7917/0.8172
+2025-11-26 00:21:39,950 Robust PCA Network INFO: Epoch-Iter: [85/400]-[0/100] || Lr: 0.000081 || Loss: 0.4496=0.2491+0.0120 || Cost Time: 1:07:58 || Estimated Time: 4:11:53
+2025-11-26 00:21:45,874 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6464/0.6909, F1: 0.7852/0.8172
+2025-11-26 00:22:28,336 Robust PCA Network INFO: Epoch-Iter: [86/400]-[0/100] || Lr: 0.000080 || Loss: 0.7009=0.3883+0.0178 || Cost Time: 1:08:46 || Estimated Time: 4:11:07
+2025-11-26 00:22:34,132 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6672/0.6909, F1: 0.8004/0.8172
+2025-11-26 00:23:15,711 Robust PCA Network INFO: Epoch-Iter: [87/400]-[0/100] || Lr: 0.000080 || Loss: 0.4365=0.2416+0.0150 || Cost Time: 1:09:34 || Estimated Time: 4:10:17
+2025-11-26 00:23:22,013 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.7044/0.7044, F1: 0.8266/0.8266
+2025-11-26 00:24:04,335 Robust PCA Network INFO: Epoch-Iter: [88/400]-[0/100] || Lr: 0.000080 || Loss: 0.5350=0.2957+0.0276 || Cost Time: 1:10:22 || Estimated Time: 4:09:31
+2025-11-26 00:24:10,715 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6598/0.7044, F1: 0.7950/0.8266
+2025-11-26 00:24:52,792 Robust PCA Network INFO: Epoch-Iter: [89/400]-[0/100] || Lr: 0.000080 || Loss: 0.4942=0.2723+0.0396 || Cost Time: 1:11:11 || Estimated Time: 4:08:45
+2025-11-26 00:24:59,022 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6669/0.7044, F1: 0.8002/0.8266
+2025-11-26 00:25:41,086 Robust PCA Network INFO: Epoch-Iter: [90/400]-[0/100] || Lr: 0.000080 || Loss: 0.6706=0.3714+0.0211 || Cost Time: 1:11:59 || Estimated Time: 4:07:58
+2025-11-26 00:25:47,127 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6610/0.7044, F1: 0.7959/0.8266
+2025-11-26 00:26:29,149 Robust PCA Network INFO: Epoch-Iter: [91/400]-[0/100] || Lr: 0.000079 || Loss: 0.4150=0.2300+0.0094 || Cost Time: 1:12:47 || Estimated Time: 4:07:10
+2025-11-26 00:26:35,539 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6429/0.7044, F1: 0.7827/0.8266
+2025-11-26 00:27:18,317 Robust PCA Network INFO: Epoch-Iter: [92/400]-[0/100] || Lr: 0.000079 || Loss: 0.4566=0.2528+0.0151 || Cost Time: 1:13:36 || Estimated Time: 4:06:26
+2025-11-26 00:27:24,264 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6575/0.7044, F1: 0.7934/0.8266
+2025-11-26 00:28:06,787 Robust PCA Network INFO: Epoch-Iter: [93/400]-[0/100] || Lr: 0.000079 || Loss: 0.4816=0.2657+0.0322 || Cost Time: 1:14:25 || Estimated Time: 4:05:39
+2025-11-26 00:28:12,545 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6733/0.7044, F1: 0.8048/0.8266
+2025-11-26 00:28:55,217 Robust PCA Network INFO: Epoch-Iter: [94/400]-[0/100] || Lr: 0.000079 || Loss: 0.5274=0.2923+0.0126 || Cost Time: 1:15:13 || Estimated Time: 4:04:53
+2025-11-26 00:29:01,420 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6421/0.7044, F1: 0.7820/0.8266
+2025-11-26 00:29:42,823 Robust PCA Network INFO: Epoch-Iter: [95/400]-[0/100] || Lr: 0.000078 || Loss: 0.5733=0.3172+0.0230 || Cost Time: 1:16:01 || Estimated Time: 4:04:03
+2025-11-26 00:29:48,770 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6472/0.7044, F1: 0.7858/0.8266
+2025-11-26 00:30:30,472 Robust PCA Network INFO: Epoch-Iter: [96/400]-[0/100] || Lr: 0.000078 || Loss: 0.7284=0.4035+0.0211 || Cost Time: 1:16:48 || Estimated Time: 4:03:14
+2025-11-26 00:30:36,683 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6619/0.7044, F1: 0.7966/0.8266
+2025-11-26 00:31:18,142 Robust PCA Network INFO: Epoch-Iter: [97/400]-[0/100] || Lr: 0.000078 || Loss: 0.6308=0.3490+0.0255 || Cost Time: 1:17:36 || Estimated Time: 4:02:25
+2025-11-26 00:31:23,848 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6700/0.7044, F1: 0.8024/0.8266
+2025-11-26 00:32:05,235 Robust PCA Network INFO: Epoch-Iter: [98/400]-[0/100] || Lr: 0.000078 || Loss: 0.4773=0.2631+0.0358 || Cost Time: 1:18:23 || Estimated Time: 4:01:34
+2025-11-26 00:32:11,066 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6631/0.7044, F1: 0.7974/0.8266
+2025-11-26 00:32:52,828 Robust PCA Network INFO: Epoch-Iter: [99/400]-[0/100] || Lr: 0.000077 || Loss: 0.4843=0.2680+0.0187 || Cost Time: 1:19:11 || Estimated Time: 4:00:45
+2025-11-26 00:32:59,167 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6573/0.7044, F1: 0.7932/0.8266
+2025-11-26 00:33:40,673 Robust PCA Network INFO: Epoch-Iter: [100/400]-[0/100] || Lr: 0.000077 || Loss: 0.4102=0.2263+0.0289 || Cost Time: 1:19:59 || Estimated Time: 3:59:57
+2025-11-26 00:33:46,214 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6384/0.7044, F1: 0.7793/0.8266
+2025-11-26 00:34:27,854 Robust PCA Network INFO: Epoch-Iter: [101/400]-[0/100] || Lr: 0.000077 || Loss: 0.5706=0.3154+0.0282 || Cost Time: 1:20:46 || Estimated Time: 3:59:06
+2025-11-26 00:34:33,702 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6771/0.7044, F1: 0.8075/0.8266
+2025-11-26 00:35:15,338 Robust PCA Network INFO: Epoch-Iter: [102/400]-[0/100] || Lr: 0.000077 || Loss: 0.7044=0.3900+0.0228 || Cost Time: 1:21:33 || Estimated Time: 3:58:17
+2025-11-26 00:35:21,424 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6564/0.7044, F1: 0.7926/0.8266
+2025-11-26 00:36:04,001 Robust PCA Network INFO: Epoch-Iter: [103/400]-[0/100] || Lr: 0.000076 || Loss: 0.7636=0.4225+0.0317 || Cost Time: 1:22:22 || Estimated Time: 3:57:31
+2025-11-26 00:36:10,023 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6631/0.7044, F1: 0.7974/0.8266
+2025-11-26 00:36:51,187 Robust PCA Network INFO: Epoch-Iter: [104/400]-[0/100] || Lr: 0.000076 || Loss: 0.5455=0.3020+0.0178 || Cost Time: 1:23:09 || Estimated Time: 3:56:41
+2025-11-26 00:36:56,827 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6590/0.7044, F1: 0.7944/0.8266
+2025-11-26 00:37:38,482 Robust PCA Network INFO: Epoch-Iter: [105/400]-[0/100] || Lr: 0.000076 || Loss: 0.7930=0.4398+0.0126 || Cost Time: 1:23:56 || Estimated Time: 3:55:51
+2025-11-26 00:37:44,798 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6394/0.7044, F1: 0.7800/0.8266
+2025-11-26 00:38:26,991 Robust PCA Network INFO: Epoch-Iter: [106/400]-[0/100] || Lr: 0.000076 || Loss: 0.5521=0.3055+0.0221 || Cost Time: 1:24:45 || Estimated Time: 3:55:04
+2025-11-26 00:38:32,954 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6580/0.7044, F1: 0.7937/0.8266
+2025-11-26 00:39:13,786 Robust PCA Network INFO: Epoch-Iter: [107/400]-[0/100] || Lr: 0.000076 || Loss: 0.7913=0.4383+0.0233 || Cost Time: 1:25:32 || Estimated Time: 3:54:13
+2025-11-26 00:39:19,720 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6543/0.7044, F1: 0.7910/0.8266
+2025-11-26 00:40:02,115 Robust PCA Network INFO: Epoch-Iter: [108/400]-[0/100] || Lr: 0.000075 || Loss: 0.4159=0.2293+0.0317 || Cost Time: 1:26:20 || Estimated Time: 3:53:26
+2025-11-26 00:40:08,191 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6454/0.7044, F1: 0.7845/0.8266
+2025-11-26 00:40:49,859 Robust PCA Network INFO: Epoch-Iter: [109/400]-[0/100] || Lr: 0.000075 || Loss: 0.6565=0.3640+0.0123 || Cost Time: 1:27:08 || Estimated Time: 3:52:38
+2025-11-26 00:40:55,404 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6630/0.7044, F1: 0.7974/0.8266
+2025-11-26 00:41:37,710 Robust PCA Network INFO: Epoch-Iter: [110/400]-[0/100] || Lr: 0.000075 || Loss: 0.6471=0.3586+0.0162 || Cost Time: 1:27:56 || Estimated Time: 3:51:49
+2025-11-26 00:41:43,444 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6664/0.7044, F1: 0.7998/0.8266
+2025-11-26 00:42:25,078 Robust PCA Network INFO: Epoch-Iter: [111/400]-[0/100] || Lr: 0.000075 || Loss: 0.5159=0.2858+0.0152 || Cost Time: 1:28:43 || Estimated Time: 3:51:00
+2025-11-26 00:42:30,987 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6637/0.7044, F1: 0.7979/0.8266
+2025-11-26 00:43:12,735 Robust PCA Network INFO: Epoch-Iter: [112/400]-[0/100] || Lr: 0.000074 || Loss: 0.4722=0.2613+0.0188 || Cost Time: 1:29:31 || Estimated Time: 3:50:11
+2025-11-26 00:43:19,053 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6501/0.7044, F1: 0.7880/0.8266
+2025-11-26 00:44:00,720 Robust PCA Network INFO: Epoch-Iter: [113/400]-[0/100] || Lr: 0.000074 || Loss: 0.5589=0.3085+0.0348 || Cost Time: 1:30:19 || Estimated Time: 3:49:23
+2025-11-26 00:44:07,209 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6567/0.7044, F1: 0.7928/0.8266
+2025-11-26 00:44:48,818 Robust PCA Network INFO: Epoch-Iter: [114/400]-[0/100] || Lr: 0.000074 || Loss: 0.6378=0.3534+0.0164 || Cost Time: 1:31:07 || Estimated Time: 3:48:36
+2025-11-26 00:44:54,615 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6759/0.7044, F1: 0.8066/0.8266
+2025-11-26 00:45:36,828 Robust PCA Network INFO: Epoch-Iter: [115/400]-[0/100] || Lr: 0.000074 || Loss: 0.4692=0.2595+0.0204 || Cost Time: 1:31:55 || Estimated Time: 3:47:48
+2025-11-26 00:45:43,091 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6680/0.7044, F1: 0.8010/0.8266
+2025-11-26 00:46:25,180 Robust PCA Network INFO: Epoch-Iter: [116/400]-[0/100] || Lr: 0.000073 || Loss: 0.7910=0.4365+0.0513 || Cost Time: 1:32:43 || Estimated Time: 3:47:01
+2025-11-26 00:46:31,196 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6900/0.7044, F1: 0.8166/0.8266
+2025-11-26 00:47:12,787 Robust PCA Network INFO: Epoch-Iter: [117/400]-[0/100] || Lr: 0.000073 || Loss: 0.8435=0.4680+0.0099 || Cost Time: 1:33:31 || Estimated Time: 3:46:12
+2025-11-26 00:47:18,930 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6359/0.7044, F1: 0.7774/0.8266
+2025-11-26 00:48:01,892 Robust PCA Network INFO: Epoch-Iter: [118/400]-[0/100] || Lr: 0.000073 || Loss: 0.3659=0.2015+0.0311 || Cost Time: 1:34:20 || Estimated Time: 3:45:27
+2025-11-26 00:48:07,481 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6694/0.7044, F1: 0.8019/0.8266
+2025-11-26 00:48:49,708 Robust PCA Network INFO: Epoch-Iter: [119/400]-[0/100] || Lr: 0.000073 || Loss: 0.3885=0.2138+0.0366 || Cost Time: 1:35:08 || Estimated Time: 3:44:38
+2025-11-26 00:48:55,392 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6699/0.7044, F1: 0.8023/0.8266
+2025-11-26 00:49:37,493 Robust PCA Network INFO: Epoch-Iter: [120/400]-[0/100] || Lr: 0.000073 || Loss: 0.7354=0.4062+0.0411 || Cost Time: 1:35:55 || Estimated Time: 3:43:50
+2025-11-26 00:49:43,078 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6661/0.7044, F1: 0.7996/0.8266
+2025-11-26 00:50:25,147 Robust PCA Network INFO: Epoch-Iter: [121/400]-[0/100] || Lr: 0.000072 || Loss: 0.4794=0.2649+0.0263 || Cost Time: 1:36:43 || Estimated Time: 3:43:01
+2025-11-26 00:50:30,984 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6786/0.7044, F1: 0.8085/0.8266
+2025-11-26 00:51:12,382 Robust PCA Network INFO: Epoch-Iter: [122/400]-[0/100] || Lr: 0.000072 || Loss: 0.3942=0.2175+0.0257 || Cost Time: 1:37:30 || Estimated Time: 3:42:12
+2025-11-26 00:51:17,986 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6609/0.7044, F1: 0.7958/0.8266
+2025-11-26 00:51:59,075 Robust PCA Network INFO: Epoch-Iter: [123/400]-[0/100] || Lr: 0.000072 || Loss: 0.3880=0.2143+0.0214 || Cost Time: 1:38:17 || Estimated Time: 3:41:21
+2025-11-26 00:52:04,863 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6832/0.7044, F1: 0.8118/0.8266
+2025-11-26 00:52:46,381 Robust PCA Network INFO: Epoch-Iter: [124/400]-[0/100] || Lr: 0.000072 || Loss: 0.6063=0.3355+0.0232 || Cost Time: 1:39:04 || Estimated Time: 3:40:31
+2025-11-26 00:52:52,410 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6727/0.7044, F1: 0.8043/0.8266
+2025-11-26 00:53:34,467 Robust PCA Network INFO: Epoch-Iter: [125/400]-[0/100] || Lr: 0.000071 || Loss: 0.6028=0.3338+0.0202 || Cost Time: 1:39:52 || Estimated Time: 3:39:44
+2025-11-26 00:53:40,803 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6766/0.7044, F1: 0.8071/0.8266
+2025-11-26 00:54:22,494 Robust PCA Network INFO: Epoch-Iter: [126/400]-[0/100] || Lr: 0.000071 || Loss: 0.5364=0.2974+0.0115 || Cost Time: 1:40:40 || Estimated Time: 3:38:56
+2025-11-26 00:54:28,722 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6893/0.7044, F1: 0.8161/0.8266
+2025-11-26 00:55:10,246 Robust PCA Network INFO: Epoch-Iter: [127/400]-[0/100] || Lr: 0.000071 || Loss: 0.4457=0.2461+0.0259 || Cost Time: 1:41:28 || Estimated Time: 3:38:08
+2025-11-26 00:55:15,940 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6816/0.7044, F1: 0.8107/0.8266
+2025-11-26 00:55:57,734 Robust PCA Network INFO: Epoch-Iter: [128/400]-[0/100] || Lr: 0.000071 || Loss: 0.4456=0.2466+0.0162 || Cost Time: 1:42:16 || Estimated Time: 3:37:19
+2025-11-26 00:56:03,728 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6918/0.7044, F1: 0.8178/0.8266
+2025-11-26 00:56:45,299 Robust PCA Network INFO: Epoch-Iter: [129/400]-[0/100] || Lr: 0.000070 || Loss: 0.5471=0.3026+0.0228 || Cost Time: 1:43:03 || Estimated Time: 3:36:30
+2025-11-26 00:56:51,224 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6894/0.7044, F1: 0.8161/0.8266
+2025-11-26 00:57:32,206 Robust PCA Network INFO: Epoch-Iter: [130/400]-[0/100] || Lr: 0.000070 || Loss: 0.3644=0.2017+0.0134 || Cost Time: 1:43:50 || Estimated Time: 3:35:40
+2025-11-26 00:57:38,083 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6855/0.7044, F1: 0.8134/0.8266
+2025-11-26 00:58:19,967 Robust PCA Network INFO: Epoch-Iter: [131/400]-[0/100] || Lr: 0.000070 || Loss: 0.6029=0.3340+0.0161 || Cost Time: 1:44:38 || Estimated Time: 3:34:52
+2025-11-26 00:58:26,111 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6685/0.7044, F1: 0.8013/0.8266
+2025-11-26 00:59:07,926 Robust PCA Network INFO: Epoch-Iter: [132/400]-[0/100] || Lr: 0.000070 || Loss: 0.5917=0.3278+0.0166 || Cost Time: 1:45:26 || Estimated Time: 3:34:04
+2025-11-26 00:59:13,594 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6934/0.7044, F1: 0.8190/0.8266
+2025-11-26 00:59:56,035 Robust PCA Network INFO: Epoch-Iter: [133/400]-[0/100] || Lr: 0.000070 || Loss: 0.3877=0.2142+0.0203 || Cost Time: 1:46:14 || Estimated Time: 3:33:16
+2025-11-26 01:00:02,098 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6287/0.7044, F1: 0.7720/0.8266
+2025-11-26 01:00:44,911 Robust PCA Network INFO: Epoch-Iter: [134/400]-[0/100] || Lr: 0.000069 || Loss: 0.4374=0.2416+0.0251 || Cost Time: 1:47:03 || Estimated Time: 3:32:30
+2025-11-26 01:00:50,476 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6595/0.7044, F1: 0.7948/0.8266
+2025-11-26 01:01:33,404 Robust PCA Network INFO: Epoch-Iter: [135/400]-[0/100] || Lr: 0.000069 || Loss: 0.7627=0.4217+0.0369 || Cost Time: 1:47:51 || Estimated Time: 3:31:43
+2025-11-26 01:01:39,840 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6672/0.7044, F1: 0.8004/0.8266
+2025-11-26 01:02:22,596 Robust PCA Network INFO: Epoch-Iter: [136/400]-[0/100] || Lr: 0.000069 || Loss: 0.4408=0.2435+0.0236 || Cost Time: 1:48:41 || Estimated Time: 3:30:58
+2025-11-26 01:02:28,370 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6702/0.7044, F1: 0.8025/0.8266
+2025-11-26 01:03:10,295 Robust PCA Network INFO: Epoch-Iter: [137/400]-[0/100] || Lr: 0.000069 || Loss: 0.4082=0.2254+0.0252 || Cost Time: 1:49:28 || Estimated Time: 3:30:09
+2025-11-26 01:03:16,759 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6728/0.7044, F1: 0.8044/0.8266
+2025-11-26 01:03:59,094 Robust PCA Network INFO: Epoch-Iter: [138/400]-[0/100] || Lr: 0.000068 || Loss: 0.5272=0.2909+0.0357 || Cost Time: 1:50:17 || Estimated Time: 3:29:23
+2025-11-26 01:04:05,487 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6732/0.7044, F1: 0.8047/0.8266
+2025-11-26 01:04:47,669 Robust PCA Network INFO: Epoch-Iter: [139/400]-[0/100] || Lr: 0.000068 || Loss: 0.4331=0.2386+0.0363 || Cost Time: 1:51:06 || Estimated Time: 3:28:36
+2025-11-26 01:04:53,485 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6674/0.7044, F1: 0.8005/0.8266
+2025-11-26 01:05:35,436 Robust PCA Network INFO: Epoch-Iter: [140/400]-[0/100] || Lr: 0.000068 || Loss: 0.4711=0.2608+0.0154 || Cost Time: 1:51:53 || Estimated Time: 3:27:48
+2025-11-26 01:05:41,932 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6798/0.7044, F1: 0.8094/0.8266
+2025-11-26 01:06:23,794 Robust PCA Network INFO: Epoch-Iter: [141/400]-[0/100] || Lr: 0.000068 || Loss: 0.4326=0.2385+0.0325 || Cost Time: 1:52:42 || Estimated Time: 3:27:01
+2025-11-26 01:06:30,093 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6468/0.7044, F1: 0.7855/0.8266
+2025-11-26 01:07:11,493 Robust PCA Network INFO: Epoch-Iter: [142/400]-[0/100] || Lr: 0.000067 || Loss: 0.4176=0.2306+0.0251 || Cost Time: 1:53:29 || Estimated Time: 3:26:12
+2025-11-26 01:07:17,225 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.7040/0.7044, F1: 0.8263/0.8266
+2025-11-26 01:07:58,872 Robust PCA Network INFO: Epoch-Iter: [143/400]-[0/100] || Lr: 0.000067 || Loss: 0.4623=0.2562+0.0109 || Cost Time: 1:54:17 || Estimated Time: 3:25:23
+2025-11-26 01:08:04,709 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6864/0.7044, F1: 0.8140/0.8266
+2025-11-26 01:08:46,398 Robust PCA Network INFO: Epoch-Iter: [144/400]-[0/100] || Lr: 0.000067 || Loss: 0.6422=0.3560+0.0138 || Cost Time: 1:55:04 || Estimated Time: 3:24:35
+2025-11-26 01:08:52,322 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6854/0.7044, F1: 0.8133/0.8266
+2025-11-26 01:09:34,871 Robust PCA Network INFO: Epoch-Iter: [145/400]-[0/100] || Lr: 0.000067 || Loss: 0.5944=0.3284+0.0332 || Cost Time: 1:55:53 || Estimated Time: 3:23:48
+2025-11-26 01:09:40,965 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6829/0.7044, F1: 0.8116/0.8266
+2025-11-26 01:10:23,030 Robust PCA Network INFO: Epoch-Iter: [146/400]-[0/100] || Lr: 0.000066 || Loss: 0.4500=0.2477+0.0401 || Cost Time: 1:56:41 || Estimated Time: 3:23:00
+2025-11-26 01:10:29,450 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6846/0.7044, F1: 0.8128/0.8266
+2025-11-26 01:11:11,493 Robust PCA Network INFO: Epoch-Iter: [147/400]-[0/100] || Lr: 0.000066 || Loss: 0.5363=0.2971+0.0138 || Cost Time: 1:57:29 || Estimated Time: 3:22:13
+2025-11-26 01:11:16,998 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6759/0.7044, F1: 0.8066/0.8266
+2025-11-26 01:11:58,406 Robust PCA Network INFO: Epoch-Iter: [148/400]-[0/100] || Lr: 0.000066 || Loss: 0.5166=0.2860+0.0165 || Cost Time: 1:58:16 || Estimated Time: 3:21:23
+2025-11-26 01:12:03,964 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6805/0.7044, F1: 0.8099/0.8266
+2025-11-26 01:12:44,841 Robust PCA Network INFO: Epoch-Iter: [149/400]-[0/100] || Lr: 0.000066 || Loss: 0.3490=0.1933+0.0110 || Cost Time: 1:59:03 || Estimated Time: 3:20:33
+2025-11-26 01:12:51,045 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6787/0.7044, F1: 0.8086/0.8266
+2025-11-26 01:13:33,160 Robust PCA Network INFO: Epoch-Iter: [150/400]-[0/100] || Lr: 0.000066 || Loss: 0.4154=0.2301+0.0113 || Cost Time: 1:59:51 || Estimated Time: 3:19:45
+2025-11-26 01:13:38,836 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6715/0.7044, F1: 0.8035/0.8266
+2025-11-26 01:14:20,920 Robust PCA Network INFO: Epoch-Iter: [151/400]-[0/100] || Lr: 0.000065 || Loss: 0.4306=0.2387+0.0091 || Cost Time: 2:00:39 || Estimated Time: 3:18:57
+2025-11-26 01:14:27,033 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.7239/0.7239, F1: 0.8399/0.8399
+2025-11-26 01:15:09,026 Robust PCA Network INFO: Epoch-Iter: [152/400]-[0/100] || Lr: 0.000065 || Loss: 0.5402=0.2984+0.0281 || Cost Time: 2:01:27 || Estimated Time: 3:18:10
+2025-11-26 01:15:14,629 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6808/0.7239, F1: 0.8101/0.8399
+2025-11-26 01:15:56,865 Robust PCA Network INFO: Epoch-Iter: [153/400]-[0/100] || Lr: 0.000065 || Loss: 0.5686=0.3144+0.0262 || Cost Time: 2:02:15 || Estimated Time: 3:17:21
+2025-11-26 01:16:03,080 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6721/0.7239, F1: 0.8039/0.8399
+2025-11-26 01:16:45,462 Robust PCA Network INFO: Epoch-Iter: [154/400]-[0/100] || Lr: 0.000065 || Loss: 0.5365=0.2971+0.0171 || Cost Time: 2:03:03 || Estimated Time: 3:16:35
+2025-11-26 01:16:51,534 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6767/0.7239, F1: 0.8072/0.8399
+2025-11-26 01:17:33,375 Robust PCA Network INFO: Epoch-Iter: [155/400]-[0/100] || Lr: 0.000064 || Loss: 0.7301=0.4048+0.0131 || Cost Time: 2:03:51 || Estimated Time: 3:15:47
+2025-11-26 01:17:39,414 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6532/0.7239, F1: 0.7902/0.8399
+2025-11-26 01:18:22,052 Robust PCA Network INFO: Epoch-Iter: [156/400]-[0/100] || Lr: 0.000064 || Loss: 0.5620=0.3116+0.0110 || Cost Time: 2:04:40 || Estimated Time: 3:15:00
+2025-11-26 01:18:27,993 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6807/0.7239, F1: 0.8100/0.8399
+2025-11-26 01:19:08,765 Robust PCA Network INFO: Epoch-Iter: [157/400]-[0/100] || Lr: 0.000064 || Loss: 0.3227=0.1785+0.0135 || Cost Time: 2:05:27 || Estimated Time: 3:14:10
+2025-11-26 01:19:14,409 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5772/0.7239, F1: 0.7319/0.8399
+2025-11-26 01:19:55,761 Robust PCA Network INFO: Epoch-Iter: [158/400]-[0/100] || Lr: 0.000064 || Loss: 0.5653=0.3117+0.0421 || Cost Time: 2:06:14 || Estimated Time: 3:13:20
+2025-11-26 01:20:01,575 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6666/0.7239, F1: 0.7999/0.8399
+2025-11-26 01:20:43,142 Robust PCA Network INFO: Epoch-Iter: [159/400]-[0/100] || Lr: 0.000063 || Loss: 0.4824=0.2669+0.0196 || Cost Time: 2:07:01 || Estimated Time: 3:12:32
+2025-11-26 01:20:49,567 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6730/0.7239, F1: 0.8046/0.8399
+2025-11-26 01:21:31,270 Robust PCA Network INFO: Epoch-Iter: [160/400]-[0/100] || Lr: 0.000063 || Loss: 0.4505=0.2494+0.0150 || Cost Time: 2:07:49 || Estimated Time: 3:11:44
+2025-11-26 01:21:36,939 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6855/0.7239, F1: 0.8134/0.8399
+2025-11-26 01:22:19,472 Robust PCA Network INFO: Epoch-Iter: [161/400]-[0/100] || Lr: 0.000063 || Loss: 0.5610=0.3100+0.0295 || Cost Time: 2:08:37 || Estimated Time: 3:10:56
+2025-11-26 01:22:25,384 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6817/0.7239, F1: 0.8107/0.8399
+2025-11-26 01:23:06,262 Robust PCA Network INFO: Epoch-Iter: [162/400]-[0/100] || Lr: 0.000063 || Loss: 0.4153=0.2294+0.0242 || Cost Time: 2:09:24 || Estimated Time: 3:10:07
+2025-11-26 01:23:12,218 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6674/0.7239, F1: 0.8005/0.8399
+2025-11-26 01:23:54,235 Robust PCA Network INFO: Epoch-Iter: [163/400]-[0/100] || Lr: 0.000062 || Loss: 0.3653=0.2017+0.0214 || Cost Time: 2:10:12 || Estimated Time: 3:09:19
+2025-11-26 01:24:00,688 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6610/0.7239, F1: 0.7959/0.8399
+2025-11-26 01:24:43,397 Robust PCA Network INFO: Epoch-Iter: [164/400]-[0/100] || Lr: 0.000062 || Loss: 0.3434=0.1900+0.0142 || Cost Time: 2:11:01 || Estimated Time: 3:08:33
+2025-11-26 01:24:49,763 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6639/0.7239, F1: 0.7980/0.8399
+2025-11-26 01:25:32,988 Robust PCA Network INFO: Epoch-Iter: [165/400]-[0/100] || Lr: 0.000062 || Loss: 0.8840=0.4899+0.0207 || Cost Time: 2:11:51 || Estimated Time: 3:07:47
+2025-11-26 01:25:39,626 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6638/0.7239, F1: 0.7979/0.8399
+2025-11-26 01:26:21,693 Robust PCA Network INFO: Epoch-Iter: [166/400]-[0/100] || Lr: 0.000062 || Loss: 0.3871=0.2142+0.0157 || Cost Time: 2:12:40 || Estimated Time: 3:07:00
+2025-11-26 01:26:27,272 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6814/0.7239, F1: 0.8105/0.8399
+2025-11-26 01:27:08,676 Robust PCA Network INFO: Epoch-Iter: [167/400]-[0/100] || Lr: 0.000061 || Loss: 0.4795=0.2658+0.0104 || Cost Time: 2:13:27 || Estimated Time: 3:06:11
+2025-11-26 01:27:14,958 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6689/0.7239, F1: 0.8016/0.8399
+2025-11-26 01:27:57,816 Robust PCA Network INFO: Epoch-Iter: [168/400]-[0/100] || Lr: 0.000061 || Loss: 0.3625=0.2004+0.0168 || Cost Time: 2:14:16 || Estimated Time: 3:05:25
+2025-11-26 01:28:04,495 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6535/0.7239, F1: 0.7904/0.8399
+2025-11-26 01:28:47,229 Robust PCA Network INFO: Epoch-Iter: [169/400]-[0/100] || Lr: 0.000061 || Loss: 0.4279=0.2358+0.0343 || Cost Time: 2:15:05 || Estimated Time: 3:04:39
+2025-11-26 01:28:53,686 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6737/0.7239, F1: 0.8050/0.8399
+2025-11-26 01:29:35,486 Robust PCA Network INFO: Epoch-Iter: [170/400]-[0/100] || Lr: 0.000061 || Loss: 0.5428=0.2997+0.0328 || Cost Time: 2:15:53 || Estimated Time: 3:03:51
+2025-11-26 01:29:41,943 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6760/0.7239, F1: 0.8067/0.8399
+2025-11-26 01:30:23,635 Robust PCA Network INFO: Epoch-Iter: [171/400]-[0/100] || Lr: 0.000061 || Loss: 0.6822=0.3783+0.0118 || Cost Time: 2:16:42 || Estimated Time: 3:03:04
+2025-11-26 01:30:29,698 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6768/0.7239, F1: 0.8073/0.8399
+2025-11-26 01:31:11,562 Robust PCA Network INFO: Epoch-Iter: [172/400]-[0/100] || Lr: 0.000060 || Loss: 0.6206=0.3440+0.0142 || Cost Time: 2:17:29 || Estimated Time: 3:02:16
+2025-11-26 01:31:17,140 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6759/0.7239, F1: 0.8066/0.8399
+2025-11-26 01:31:58,347 Robust PCA Network INFO: Epoch-Iter: [173/400]-[0/100] || Lr: 0.000060 || Loss: 0.3459=0.1916+0.0093 || Cost Time: 2:18:16 || Estimated Time: 3:01:26
+2025-11-26 01:32:04,568 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6722/0.7239, F1: 0.8040/0.8399
+2025-11-26 01:32:46,135 Robust PCA Network INFO: Epoch-Iter: [174/400]-[0/100] || Lr: 0.000060 || Loss: 0.5424=0.3004+0.0161 || Cost Time: 2:19:04 || Estimated Time: 3:00:38
+2025-11-26 01:32:51,992 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6720/0.7239, F1: 0.8038/0.8399
+2025-11-26 01:33:35,348 Robust PCA Network INFO: Epoch-Iter: [175/400]-[0/100] || Lr: 0.000060 || Loss: 0.5089=0.2821+0.0103 || Cost Time: 2:19:53 || Estimated Time: 2:59:51
+2025-11-26 01:33:41,804 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6707/0.7239, F1: 0.8029/0.8399
+2025-11-26 01:34:24,804 Robust PCA Network INFO: Epoch-Iter: [176/400]-[0/100] || Lr: 0.000059 || Loss: 0.6210=0.3436+0.0245 || Cost Time: 2:20:43 || Estimated Time: 2:59:05
+2025-11-26 01:34:30,821 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6690/0.7239, F1: 0.8017/0.8399
+2025-11-26 01:35:12,542 Robust PCA Network INFO: Epoch-Iter: [177/400]-[0/100] || Lr: 0.000059 || Loss: 0.4917=0.2718+0.0242 || Cost Time: 2:21:30 || Estimated Time: 2:58:17
+2025-11-26 01:35:18,284 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6703/0.7239, F1: 0.8026/0.8399
+2025-11-26 01:35:59,764 Robust PCA Network INFO: Epoch-Iter: [178/400]-[0/100] || Lr: 0.000059 || Loss: 0.7254=0.4019+0.0193 || Cost Time: 2:22:18 || Estimated Time: 2:57:28
+2025-11-26 01:36:05,793 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6761/0.7239, F1: 0.8068/0.8399
+2025-11-26 01:36:47,452 Robust PCA Network INFO: Epoch-Iter: [179/400]-[0/100] || Lr: 0.000059 || Loss: 0.4942=0.2734+0.0209 || Cost Time: 2:23:05 || Estimated Time: 2:56:40
+2025-11-26 01:36:53,705 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6738/0.7239, F1: 0.8051/0.8399
+2025-11-26 01:37:35,136 Robust PCA Network INFO: Epoch-Iter: [180/400]-[0/100] || Lr: 0.000058 || Loss: 0.1629=0.0899+0.0100 || Cost Time: 2:23:53 || Estimated Time: 2:55:52
+2025-11-26 01:37:41,104 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6715/0.7239, F1: 0.8035/0.8399
+2025-11-26 01:38:23,068 Robust PCA Network INFO: Epoch-Iter: [181/400]-[0/100] || Lr: 0.000058 || Loss: 0.4574=0.2532+0.0157 || Cost Time: 2:24:41 || Estimated Time: 2:55:04
+2025-11-26 01:38:29,136 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6789/0.7239, F1: 0.8087/0.8399
+2025-11-26 01:39:10,281 Robust PCA Network INFO: Epoch-Iter: [182/400]-[0/100] || Lr: 0.000058 || Loss: 0.4470=0.2466+0.0306 || Cost Time: 2:25:28 || Estimated Time: 2:54:15
+2025-11-26 01:39:16,412 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6818/0.7239, F1: 0.8108/0.8399
+2025-11-26 01:39:59,210 Robust PCA Network INFO: Epoch-Iter: [183/400]-[0/100] || Lr: 0.000058 || Loss: 0.7170=0.3975+0.0149 || Cost Time: 2:26:17 || Estimated Time: 2:53:28
+2025-11-26 01:40:05,589 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6618/0.7239, F1: 0.7965/0.8399
+2025-11-26 01:40:48,381 Robust PCA Network INFO: Epoch-Iter: [184/400]-[0/100] || Lr: 0.000057 || Loss: 0.4780=0.2647+0.0152 || Cost Time: 2:27:06 || Estimated Time: 2:52:41
+2025-11-26 01:40:54,642 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6723/0.7239, F1: 0.8040/0.8399
+2025-11-26 01:41:36,773 Robust PCA Network INFO: Epoch-Iter: [185/400]-[0/100] || Lr: 0.000057 || Loss: 0.5998=0.3303+0.0520 || Cost Time: 2:27:55 || Estimated Time: 2:51:54
+2025-11-26 01:41:42,880 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6794/0.7239, F1: 0.8091/0.8399
+2025-11-26 01:42:23,941 Robust PCA Network INFO: Epoch-Iter: [186/400]-[0/100] || Lr: 0.000057 || Loss: 0.6166=0.3412+0.0247 || Cost Time: 2:28:42 || Estimated Time: 2:51:05
+2025-11-26 01:42:30,471 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6691/0.7239, F1: 0.8017/0.8399
+2025-11-26 01:43:12,280 Robust PCA Network INFO: Epoch-Iter: [187/400]-[0/100] || Lr: 0.000057 || Loss: 0.4952=0.2743+0.0142 || Cost Time: 2:29:30 || Estimated Time: 2:50:17
+2025-11-26 01:43:18,413 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6555/0.7239, F1: 0.7919/0.8399
+2025-11-26 01:43:59,662 Robust PCA Network INFO: Epoch-Iter: [188/400]-[0/100] || Lr: 0.000056 || Loss: 0.4271=0.2366+0.0110 || Cost Time: 2:30:18 || Estimated Time: 2:49:29
+2025-11-26 01:44:05,666 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6699/0.7239, F1: 0.8023/0.8399
+2025-11-26 01:44:48,026 Robust PCA Network INFO: Epoch-Iter: [189/400]-[0/100] || Lr: 0.000056 || Loss: 0.4383=0.2421+0.0233 || Cost Time: 2:31:06 || Estimated Time: 2:48:41
+2025-11-26 01:44:53,787 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6693/0.7239, F1: 0.8019/0.8399
+2025-11-26 01:45:35,745 Robust PCA Network INFO: Epoch-Iter: [190/400]-[0/100] || Lr: 0.000056 || Loss: 0.3880=0.2147+0.0147 || Cost Time: 2:31:54 || Estimated Time: 2:47:53
+2025-11-26 01:45:41,277 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6779/0.7239, F1: 0.8080/0.8399
+2025-11-26 01:46:22,862 Robust PCA Network INFO: Epoch-Iter: [191/400]-[0/100] || Lr: 0.000056 || Loss: 0.6144=0.3393+0.0353 || Cost Time: 2:32:41 || Estimated Time: 2:47:04
+2025-11-26 01:46:28,664 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6711/0.7239, F1: 0.8032/0.8399
+2025-11-26 01:47:10,540 Robust PCA Network INFO: Epoch-Iter: [192/400]-[0/100] || Lr: 0.000056 || Loss: 0.6091=0.3374+0.0177 || Cost Time: 2:33:28 || Estimated Time: 2:46:16
+2025-11-26 01:47:16,227 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6713/0.7239, F1: 0.8034/0.8399
+2025-11-26 01:47:57,821 Robust PCA Network INFO: Epoch-Iter: [193/400]-[0/100] || Lr: 0.000055 || Loss: 0.5143=0.2850+0.0123 || Cost Time: 2:34:16 || Estimated Time: 2:45:27
+2025-11-26 01:48:04,061 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6811/0.7239, F1: 0.8103/0.8399
+2025-11-26 01:48:45,328 Robust PCA Network INFO: Epoch-Iter: [194/400]-[0/100] || Lr: 0.000055 || Loss: 0.4731=0.2616+0.0220 || Cost Time: 2:35:03 || Estimated Time: 2:44:39
+2025-11-26 01:48:51,237 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6769/0.7239, F1: 0.8073/0.8399
+2025-11-26 01:49:32,477 Robust PCA Network INFO: Epoch-Iter: [195/400]-[0/100] || Lr: 0.000055 || Loss: 0.4140=0.2289+0.0205 || Cost Time: 2:35:50 || Estimated Time: 2:43:50
+2025-11-26 01:49:38,999 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6829/0.7239, F1: 0.8116/0.8399
+2025-11-26 01:50:20,957 Robust PCA Network INFO: Epoch-Iter: [196/400]-[0/100] || Lr: 0.000055 || Loss: 0.4116=0.2276+0.0198 || Cost Time: 2:36:39 || Estimated Time: 2:43:03
+2025-11-26 01:50:27,167 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6770/0.7239, F1: 0.8074/0.8399
+2025-11-26 01:51:08,184 Robust PCA Network INFO: Epoch-Iter: [197/400]-[0/100] || Lr: 0.000054 || Loss: 0.4978=0.2732+0.0607 || Cost Time: 2:37:26 || Estimated Time: 2:42:14
+2025-11-26 01:51:14,103 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6750/0.7239, F1: 0.8060/0.8399
+2025-11-26 01:51:56,012 Robust PCA Network INFO: Epoch-Iter: [198/400]-[0/100] || Lr: 0.000054 || Loss: 0.5280=0.2915+0.0328 || Cost Time: 2:38:14 || Estimated Time: 2:41:26
+2025-11-26 01:52:01,784 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6785/0.7239, F1: 0.8085/0.8399
+2025-11-26 01:52:44,084 Robust PCA Network INFO: Epoch-Iter: [199/400]-[0/100] || Lr: 0.000054 || Loss: 0.5782=0.3186+0.0473 || Cost Time: 2:39:02 || Estimated Time: 2:40:38
+2025-11-26 01:52:49,980 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6588/0.7239, F1: 0.7943/0.8399
+2025-11-26 01:53:31,831 Robust PCA Network INFO: Epoch-Iter: [200/400]-[0/100] || Lr: 0.000054 || Loss: 0.6145=0.3396+0.0308 || Cost Time: 2:39:50 || Estimated Time: 2:39:50
+2025-11-26 01:53:37,642 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.7024/0.7239, F1: 0.8252/0.8399
+2025-11-26 01:54:18,300 Robust PCA Network INFO: Epoch-Iter: [201/400]-[0/100] || Lr: 0.000053 || Loss: 0.5448=0.3020+0.0123 || Cost Time: 2:40:36 || Estimated Time: 2:39:00
+2025-11-26 01:54:24,060 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6810/0.7239, F1: 0.8102/0.8399
+2025-11-26 01:55:05,122 Robust PCA Network INFO: Epoch-Iter: [202/400]-[0/100] || Lr: 0.000053 || Loss: 0.4771=0.2643+0.0131 || Cost Time: 2:41:23 || Estimated Time: 2:38:11
+2025-11-26 01:55:11,446 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6711/0.7239, F1: 0.8032/0.8399
+2025-11-26 01:55:53,619 Robust PCA Network INFO: Epoch-Iter: [203/400]-[0/100] || Lr: 0.000053 || Loss: 0.5129=0.2844+0.0084 || Cost Time: 2:42:12 || Estimated Time: 2:37:24
+2025-11-26 01:55:59,431 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6812/0.7239, F1: 0.8104/0.8399
+2025-11-26 01:56:40,822 Robust PCA Network INFO: Epoch-Iter: [204/400]-[0/100] || Lr: 0.000053 || Loss: 0.4571=0.2533+0.0117 || Cost Time: 2:42:59 || Estimated Time: 2:36:35
+2025-11-26 01:56:46,488 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6731/0.7239, F1: 0.8046/0.8399
+2025-11-26 01:57:28,320 Robust PCA Network INFO: Epoch-Iter: [205/400]-[0/100] || Lr: 0.000052 || Loss: 0.2906=0.1603+0.0207 || Cost Time: 2:43:46 || Estimated Time: 2:35:47
+2025-11-26 01:57:33,887 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6748/0.7239, F1: 0.8058/0.8399
+2025-11-26 01:58:15,654 Robust PCA Network INFO: Epoch-Iter: [206/400]-[0/100] || Lr: 0.000052 || Loss: 0.4480=0.2479+0.0181 || Cost Time: 2:44:34 || Estimated Time: 2:34:58
+2025-11-26 01:58:21,927 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6770/0.7239, F1: 0.8074/0.8399
+2025-11-26 01:59:03,594 Robust PCA Network INFO: Epoch-Iter: [207/400]-[0/100] || Lr: 0.000052 || Loss: 0.4482=0.2472+0.0329 || Cost Time: 2:45:21 || Estimated Time: 2:34:10
+2025-11-26 01:59:09,555 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6713/0.7239, F1: 0.8033/0.8399
+2025-11-26 01:59:51,941 Robust PCA Network INFO: Epoch-Iter: [208/400]-[0/100] || Lr: 0.000052 || Loss: 0.3645=0.2009+0.0283 || Cost Time: 2:46:10 || Estimated Time: 2:33:23
+2025-11-26 01:59:57,625 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6740/0.7239, F1: 0.8053/0.8399
+2025-11-26 02:00:39,988 Robust PCA Network INFO: Epoch-Iter: [209/400]-[0/100] || Lr: 0.000051 || Loss: 0.4970=0.2748+0.0230 || Cost Time: 2:46:58 || Estimated Time: 2:32:35
+2025-11-26 02:00:46,055 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6720/0.7239, F1: 0.8038/0.8399
+2025-11-26 02:01:27,271 Robust PCA Network INFO: Epoch-Iter: [210/400]-[0/100] || Lr: 0.000051 || Loss: 0.4858=0.2683+0.0282 || Cost Time: 2:47:45 || Estimated Time: 2:31:47
+2025-11-26 02:01:33,306 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6696/0.7239, F1: 0.8021/0.8399
+2025-11-26 02:02:14,727 Robust PCA Network INFO: Epoch-Iter: [211/400]-[0/100] || Lr: 0.000051 || Loss: 0.4245=0.2346+0.0214 || Cost Time: 2:48:33 || Estimated Time: 2:30:58
+2025-11-26 02:02:20,559 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6769/0.7239, F1: 0.8074/0.8399
+2025-11-26 02:03:02,848 Robust PCA Network INFO: Epoch-Iter: [212/400]-[0/100] || Lr: 0.000051 || Loss: 0.5287=0.2926+0.0186 || Cost Time: 2:49:21 || Estimated Time: 2:30:10
+2025-11-26 02:03:09,092 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6777/0.7239, F1: 0.8079/0.8399
+2025-11-26 02:03:50,994 Robust PCA Network INFO: Epoch-Iter: [213/400]-[0/100] || Lr: 0.000050 || Loss: 0.4118=0.2280+0.0135 || Cost Time: 2:50:09 || Estimated Time: 2:29:23
+2025-11-26 02:03:56,852 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6767/0.7239, F1: 0.8072/0.8399
+2025-11-26 02:04:38,769 Robust PCA Network INFO: Epoch-Iter: [214/400]-[0/100] || Lr: 0.000050 || Loss: 0.3488=0.1923+0.0264 || Cost Time: 2:50:57 || Estimated Time: 2:28:35
+2025-11-26 02:04:44,357 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6739/0.7239, F1: 0.8052/0.8399
+2025-11-26 02:05:26,878 Robust PCA Network INFO: Epoch-Iter: [215/400]-[0/100] || Lr: 0.000050 || Loss: 0.5491=0.3039+0.0197 || Cost Time: 2:51:45 || Estimated Time: 2:27:47
+2025-11-26 02:05:32,924 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.5626/0.7239, F1: 0.7201/0.8399
+2025-11-26 02:06:14,986 Robust PCA Network INFO: Epoch-Iter: [216/400]-[0/100] || Lr: 0.000050 || Loss: 0.4828=0.2674+0.0140 || Cost Time: 2:52:33 || Estimated Time: 2:26:59
+2025-11-26 02:06:20,566 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6770/0.7239, F1: 0.8074/0.8399
+2025-11-26 02:07:02,606 Robust PCA Network INFO: Epoch-Iter: [217/400]-[0/100] || Lr: 0.000049 || Loss: 0.3424=0.1886+0.0290 || Cost Time: 2:53:21 || Estimated Time: 2:26:11
+2025-11-26 02:07:08,521 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6588/0.7239, F1: 0.7943/0.8399
+2025-11-26 02:07:50,102 Robust PCA Network INFO: Epoch-Iter: [218/400]-[0/100] || Lr: 0.000049 || Loss: 0.6315=0.3501+0.0123 || Cost Time: 2:54:08 || Estimated Time: 2:25:23
+2025-11-26 02:07:55,938 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6666/0.7239, F1: 0.7999/0.8399
+2025-11-26 02:08:37,211 Robust PCA Network INFO: Epoch-Iter: [219/400]-[0/100] || Lr: 0.000049 || Loss: 0.4227=0.2337+0.0191 || Cost Time: 2:54:55 || Estimated Time: 2:24:34
+2025-11-26 02:08:43,710 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6683/0.7239, F1: 0.8012/0.8399
+2025-11-26 02:09:25,227 Robust PCA Network INFO: Epoch-Iter: [220/400]-[0/100] || Lr: 0.000049 || Loss: 0.4395=0.2432+0.0172 || Cost Time: 2:55:43 || Estimated Time: 2:23:46
+2025-11-26 02:09:31,168 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6719/0.7239, F1: 0.8037/0.8399
+2025-11-26 02:10:13,216 Robust PCA Network INFO: Epoch-Iter: [221/400]-[0/100] || Lr: 0.000048 || Loss: 0.4404=0.2440+0.0111 || Cost Time: 2:56:31 || Estimated Time: 2:22:58
+2025-11-26 02:10:18,972 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6709/0.7239, F1: 0.8031/0.8399
+2025-11-26 02:11:01,293 Robust PCA Network INFO: Epoch-Iter: [222/400]-[0/100] || Lr: 0.000048 || Loss: 0.5335=0.2957+0.0123 || Cost Time: 2:57:19 || Estimated Time: 2:22:10
+2025-11-26 02:11:07,726 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6754/0.7239, F1: 0.8062/0.8399
+2025-11-26 02:11:49,256 Robust PCA Network INFO: Epoch-Iter: [223/400]-[0/100] || Lr: 0.000048 || Loss: 0.5157=0.2842+0.0424 || Cost Time: 2:58:07 || Estimated Time: 2:21:23
+2025-11-26 02:11:54,925 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6833/0.7239, F1: 0.8118/0.8399
+2025-11-26 02:12:35,944 Robust PCA Network INFO: Epoch-Iter: [224/400]-[0/100] || Lr: 0.000048 || Loss: 0.8176=0.4530+0.0207 || Cost Time: 2:58:54 || Estimated Time: 2:20:34
+2025-11-26 02:12:41,553 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6995/0.7239, F1: 0.8231/0.8399
+2025-11-26 02:13:22,581 Robust PCA Network INFO: Epoch-Iter: [225/400]-[0/100] || Lr: 0.000048 || Loss: 0.3367=0.1861+0.0158 || Cost Time: 2:59:40 || Estimated Time: 2:19:45
+2025-11-26 02:13:28,589 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6869/0.7239, F1: 0.8144/0.8399
+2025-11-26 02:14:09,840 Robust PCA Network INFO: Epoch-Iter: [226/400]-[0/100] || Lr: 0.000047 || Loss: 0.5219=0.2895+0.0070 || Cost Time: 3:00:28 || Estimated Time: 2:18:56
+2025-11-26 02:14:15,734 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.7236/0.7239, F1: 0.8397/0.8399
+2025-11-26 02:14:57,385 Robust PCA Network INFO: Epoch-Iter: [227/400]-[0/100] || Lr: 0.000047 || Loss: 0.4757=0.2636+0.0114 || Cost Time: 3:01:15 || Estimated Time: 2:18:08
+2025-11-26 02:15:03,903 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.7123/0.7239, F1: 0.8320/0.8399
+2025-11-26 02:15:45,871 Robust PCA Network INFO: Epoch-Iter: [228/400]-[0/100] || Lr: 0.000047 || Loss: 0.4262=0.2355+0.0230 || Cost Time: 3:02:04 || Estimated Time: 2:17:21
+2025-11-26 02:15:51,772 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6999/0.7239, F1: 0.8235/0.8399
+2025-11-26 02:16:33,507 Robust PCA Network INFO: Epoch-Iter: [229/400]-[0/100] || Lr: 0.000047 || Loss: 0.3932=0.2178+0.0101 || Cost Time: 3:02:51 || Estimated Time: 2:16:33
+2025-11-26 02:16:39,840 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6784/0.7239, F1: 0.8084/0.8399
+2025-11-26 02:17:21,442 Robust PCA Network INFO: Epoch-Iter: [230/400]-[0/100] || Lr: 0.000046 || Loss: 0.3719=0.2055+0.0196 || Cost Time: 3:03:39 || Estimated Time: 2:15:45
+2025-11-26 02:17:27,504 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6903/0.7239, F1: 0.8168/0.8399
+2025-11-26 02:18:08,981 Robust PCA Network INFO: Epoch-Iter: [231/400]-[0/100] || Lr: 0.000046 || Loss: 0.4166=0.2291+0.0414 || Cost Time: 3:04:27 || Estimated Time: 2:14:56
+2025-11-26 02:18:14,540 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6681/0.7239, F1: 0.8010/0.8399
+2025-11-26 02:18:55,485 Robust PCA Network INFO: Epoch-Iter: [232/400]-[0/100] || Lr: 0.000046 || Loss: 0.4256=0.2358+0.0121 || Cost Time: 3:05:13 || Estimated Time: 2:14:07
+2025-11-26 02:19:01,030 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6807/0.7239, F1: 0.8100/0.8399
+2025-11-26 02:19:42,113 Robust PCA Network INFO: Epoch-Iter: [233/400]-[0/100] || Lr: 0.000046 || Loss: 0.5481=0.3039+0.0111 || Cost Time: 3:06:00 || Estimated Time: 2:13:19
+2025-11-26 02:19:47,587 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6809/0.7239, F1: 0.8102/0.8399
+2025-11-26 02:20:28,076 Robust PCA Network INFO: Epoch-Iter: [234/400]-[0/100] || Lr: 0.000045 || Loss: 0.3896=0.2155+0.0160 || Cost Time: 3:06:46 || Estimated Time: 2:12:29
+2025-11-26 02:20:34,626 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6800/0.7239, F1: 0.8095/0.8399
+2025-11-26 02:21:16,240 Robust PCA Network INFO: Epoch-Iter: [235/400]-[0/100] || Lr: 0.000045 || Loss: 0.4252=0.2356+0.0117 || Cost Time: 3:07:34 || Estimated Time: 2:11:42
+2025-11-26 02:21:21,834 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6711/0.7239, F1: 0.8032/0.8399
+2025-11-26 02:22:03,199 Robust PCA Network INFO: Epoch-Iter: [236/400]-[0/100] || Lr: 0.000045 || Loss: 0.4124=0.2286+0.0095 || Cost Time: 3:08:21 || Estimated Time: 2:10:53
+2025-11-26 02:22:09,243 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6725/0.7239, F1: 0.8042/0.8399
+2025-11-26 02:22:50,164 Robust PCA Network INFO: Epoch-Iter: [237/400]-[0/100] || Lr: 0.000045 || Loss: 0.2571=0.1419+0.0167 || Cost Time: 3:09:08 || Estimated Time: 2:10:05
+2025-11-26 02:22:56,276 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6748/0.7239, F1: 0.8058/0.8399
+2025-11-26 02:23:37,420 Robust PCA Network INFO: Epoch-Iter: [238/400]-[0/100] || Lr: 0.000044 || Loss: 0.4224=0.2340+0.0127 || Cost Time: 3:09:55 || Estimated Time: 2:09:16
+2025-11-26 02:23:42,984 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6837/0.7239, F1: 0.8121/0.8399
+2025-11-26 02:24:24,132 Robust PCA Network INFO: Epoch-Iter: [239/400]-[0/100] || Lr: 0.000044 || Loss: 0.6540=0.3622+0.0199 || Cost Time: 3:10:42 || Estimated Time: 2:08:28
+2025-11-26 02:24:30,064 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6801/0.7239, F1: 0.8096/0.8399
+2025-11-26 02:25:12,408 Robust PCA Network INFO: Epoch-Iter: [240/400]-[0/100] || Lr: 0.000044 || Loss: 0.3616=0.2002+0.0118 || Cost Time: 3:11:30 || Estimated Time: 2:07:40
+2025-11-26 02:25:18,098 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6677/0.7239, F1: 0.8007/0.8399
+2025-11-26 02:25:59,116 Robust PCA Network INFO: Epoch-Iter: [241/400]-[0/100] || Lr: 0.000044 || Loss: 0.4550=0.2517+0.0197 || Cost Time: 3:12:17 || Estimated Time: 2:06:51
+2025-11-26 02:26:04,987 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6827/0.7239, F1: 0.8115/0.8399
+2025-11-26 02:26:46,477 Robust PCA Network INFO: Epoch-Iter: [242/400]-[0/100] || Lr: 0.000043 || Loss: 0.3716=0.2056+0.0145 || Cost Time: 3:13:04 || Estimated Time: 2:06:03
+2025-11-26 02:26:52,638 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6837/0.7239, F1: 0.8122/0.8399
+2025-11-26 02:27:33,822 Robust PCA Network INFO: Epoch-Iter: [243/400]-[0/100] || Lr: 0.000043 || Loss: 0.3951=0.2184+0.0188 || Cost Time: 3:13:52 || Estimated Time: 2:05:15
+2025-11-26 02:27:39,523 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6738/0.7239, F1: 0.8051/0.8399
+2025-11-26 02:28:21,226 Robust PCA Network INFO: Epoch-Iter: [244/400]-[0/100] || Lr: 0.000043 || Loss: 0.3112=0.1713+0.0277 || Cost Time: 3:14:39 || Estimated Time: 2:04:27
+2025-11-26 02:28:27,418 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6585/0.7239, F1: 0.7941/0.8399
+2025-11-26 02:29:09,289 Robust PCA Network INFO: Epoch-Iter: [245/400]-[0/100] || Lr: 0.000043 || Loss: 0.3771=0.2087+0.0128 || Cost Time: 3:15:27 || Estimated Time: 2:03:39
+2025-11-26 02:29:15,787 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6794/0.7239, F1: 0.8091/0.8399
+2025-11-26 02:29:58,785 Robust PCA Network INFO: Epoch-Iter: [246/400]-[0/100] || Lr: 0.000042 || Loss: 0.5291=0.2924+0.0276 || Cost Time: 3:16:17 || Estimated Time: 2:02:52
+2025-11-26 02:30:04,930 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6820/0.7239, F1: 0.8109/0.8399
+2025-11-26 02:30:46,459 Robust PCA Network INFO: Epoch-Iter: [247/400]-[0/100] || Lr: 0.000042 || Loss: 0.5235=0.2900+0.0146 || Cost Time: 3:17:04 || Estimated Time: 2:02:04
+2025-11-26 02:30:52,321 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6725/0.7239, F1: 0.8042/0.8399
+2025-11-26 02:31:34,253 Robust PCA Network INFO: Epoch-Iter: [248/400]-[0/100] || Lr: 0.000042 || Loss: 0.4398=0.2438+0.0095 || Cost Time: 3:17:52 || Estimated Time: 2:01:16
+2025-11-26 02:31:39,966 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6713/0.7239, F1: 0.8033/0.8399
+2025-11-26 02:32:21,026 Robust PCA Network INFO: Epoch-Iter: [249/400]-[0/100] || Lr: 0.000042 || Loss: 0.4029=0.2221+0.0296 || Cost Time: 3:18:39 || Estimated Time: 2:00:28
+2025-11-26 02:32:26,868 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6815/0.7239, F1: 0.8106/0.8399
+2025-11-26 02:33:09,128 Robust PCA Network INFO: Epoch-Iter: [250/400]-[0/100] || Lr: 0.000041 || Loss: 0.3896=0.2159+0.0091 || Cost Time: 3:19:27 || Estimated Time: 1:59:40
+2025-11-26 02:33:14,878 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.7209/0.7239, F1: 0.8378/0.8399
+2025-11-26 02:33:57,032 Robust PCA Network INFO: Epoch-Iter: [251/400]-[0/100] || Lr: 0.000041 || Loss: 0.3523=0.1949+0.0141 || Cost Time: 3:20:15 || Estimated Time: 1:58:52
+2025-11-26 02:34:02,774 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6823/0.7239, F1: 0.8111/0.8399
+2025-11-26 02:34:45,124 Robust PCA Network INFO: Epoch-Iter: [252/400]-[0/100] || Lr: 0.000041 || Loss: 0.4604=0.2540+0.0323 || Cost Time: 3:21:03 || Estimated Time: 1:58:04
+2025-11-26 02:34:50,972 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6826/0.7239, F1: 0.8114/0.8399
+2025-11-26 02:35:32,139 Robust PCA Network INFO: Epoch-Iter: [253/400]-[0/100] || Lr: 0.000041 || Loss: 0.5538=0.3064+0.0229 || Cost Time: 3:21:50 || Estimated Time: 1:57:16
+2025-11-26 02:35:37,754 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6721/0.7239, F1: 0.8039/0.8399
+2025-11-26 02:36:18,876 Robust PCA Network INFO: Epoch-Iter: [254/400]-[0/100] || Lr: 0.000040 || Loss: 0.3054=0.1690+0.0113 || Cost Time: 3:22:37 || Estimated Time: 1:56:28
+2025-11-26 02:36:24,873 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6706/0.7239, F1: 0.8028/0.8399
+2025-11-26 02:37:06,738 Robust PCA Network INFO: Epoch-Iter: [255/400]-[0/100] || Lr: 0.000040 || Loss: 0.4998=0.2769+0.0142 || Cost Time: 3:23:25 || Estimated Time: 1:55:40
+2025-11-26 02:37:12,713 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6775/0.7239, F1: 0.8078/0.8399
+2025-11-26 02:37:54,215 Robust PCA Network INFO: Epoch-Iter: [256/400]-[0/100] || Lr: 0.000040 || Loss: 0.3235=0.1789+0.0144 || Cost Time: 3:24:12 || Estimated Time: 1:54:52
+2025-11-26 02:37:59,990 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6693/0.7239, F1: 0.8019/0.8399
+2025-11-26 02:38:41,443 Robust PCA Network INFO: Epoch-Iter: [257/400]-[0/100] || Lr: 0.000040 || Loss: 0.4449=0.2453+0.0327 || Cost Time: 3:24:59 || Estimated Time: 1:54:03
+2025-11-26 02:38:47,770 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6635/0.7239, F1: 0.7977/0.8399
+2025-11-26 02:39:29,238 Robust PCA Network INFO: Epoch-Iter: [258/400]-[0/100] || Lr: 0.000039 || Loss: 0.3761=0.2083+0.0112 || Cost Time: 3:25:47 || Estimated Time: 1:53:15
+2025-11-26 02:39:35,610 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6511/0.7239, F1: 0.7887/0.8399
+2025-11-26 02:40:16,958 Robust PCA Network INFO: Epoch-Iter: [259/400]-[0/100] || Lr: 0.000039 || Loss: 0.3809=0.2105+0.0205 || Cost Time: 3:26:35 || Estimated Time: 1:52:28
+2025-11-26 02:40:23,134 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6624/0.7239, F1: 0.7969/0.8399
+2025-11-26 02:41:04,856 Robust PCA Network INFO: Epoch-Iter: [260/400]-[0/100] || Lr: 0.000039 || Loss: 0.3559=0.1968+0.0161 || Cost Time: 3:27:23 || Estimated Time: 1:51:40
+2025-11-26 02:41:10,623 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6762/0.7239, F1: 0.8068/0.8399
+2025-11-26 02:41:52,566 Robust PCA Network INFO: Epoch-Iter: [261/400]-[0/100] || Lr: 0.000039 || Loss: 0.4309=0.2387+0.0129 || Cost Time: 3:28:10 || Estimated Time: 1:50:52
+2025-11-26 02:41:59,047 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6728/0.7239, F1: 0.8044/0.8399
+2025-11-26 02:42:41,156 Robust PCA Network INFO: Epoch-Iter: [262/400]-[0/100] || Lr: 0.000038 || Loss: 0.5022=0.2776+0.0243 || Cost Time: 3:28:59 || Estimated Time: 1:50:04
+2025-11-26 02:42:47,271 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6824/0.7239, F1: 0.8112/0.8399
+2025-11-26 02:43:30,089 Robust PCA Network INFO: Epoch-Iter: [263/400]-[0/100] || Lr: 0.000038 || Loss: 0.4449=0.2467+0.0066 || Cost Time: 3:29:48 || Estimated Time: 1:49:17
+2025-11-26 02:43:36,639 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6863/0.7239, F1: 0.8140/0.8399
+2025-11-26 02:44:17,806 Robust PCA Network INFO: Epoch-Iter: [264/400]-[0/100] || Lr: 0.000038 || Loss: 0.4521=0.2504+0.0130 || Cost Time: 3:30:36 || Estimated Time: 1:48:29
+2025-11-26 02:44:23,564 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6848/0.7239, F1: 0.8129/0.8399
+2025-11-26 02:45:05,538 Robust PCA Network INFO: Epoch-Iter: [265/400]-[0/100] || Lr: 0.000038 || Loss: 0.4502=0.2491+0.0182 || Cost Time: 3:31:23 || Estimated Time: 1:47:41
+2025-11-26 02:45:11,721 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6851/0.7239, F1: 0.8131/0.8399
+2025-11-26 02:45:54,051 Robust PCA Network INFO: Epoch-Iter: [266/400]-[0/100] || Lr: 0.000037 || Loss: 0.4042=0.2240+0.0099 || Cost Time: 3:32:12 || Estimated Time: 1:46:54
+2025-11-26 02:46:00,303 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6852/0.7239, F1: 0.8132/0.8399
+2025-11-26 02:46:41,890 Robust PCA Network INFO: Epoch-Iter: [267/400]-[0/100] || Lr: 0.000037 || Loss: 0.4067=0.2247+0.0220 || Cost Time: 3:33:00 || Estimated Time: 1:46:06
+2025-11-26 02:46:47,578 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6840/0.7239, F1: 0.8123/0.8399
+2025-11-26 02:47:29,096 Robust PCA Network INFO: Epoch-Iter: [268/400]-[0/100] || Lr: 0.000037 || Loss: 0.5953=0.3292+0.0259 || Cost Time: 3:33:47 || Estimated Time: 1:45:18
+2025-11-26 02:47:34,920 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6740/0.7239, F1: 0.8053/0.8399
+2025-11-26 02:48:17,743 Robust PCA Network INFO: Epoch-Iter: [269/400]-[0/100] || Lr: 0.000037 || Loss: 0.3876=0.2137+0.0292 || Cost Time: 3:34:36 || Estimated Time: 1:44:30
+2025-11-26 02:48:23,427 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6642/0.7239, F1: 0.7983/0.8399
+2025-11-26 02:49:05,413 Robust PCA Network INFO: Epoch-Iter: [270/400]-[0/100] || Lr: 0.000036 || Loss: 0.3812=0.2110+0.0134 || Cost Time: 3:35:23 || Estimated Time: 1:43:42
+2025-11-26 02:49:11,744 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6764/0.7239, F1: 0.8070/0.8399
+2025-11-26 02:49:53,440 Robust PCA Network INFO: Epoch-Iter: [271/400]-[0/100] || Lr: 0.000036 || Loss: 0.4635=0.2559+0.0289 || Cost Time: 3:36:11 || Estimated Time: 1:42:54
+2025-11-26 02:49:59,119 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6701/0.7239, F1: 0.8025/0.8399
+2025-11-26 02:50:41,353 Robust PCA Network INFO: Epoch-Iter: [272/400]-[0/100] || Lr: 0.000036 || Loss: 0.2968=0.1638+0.0201 || Cost Time: 3:36:59 || Estimated Time: 1:42:06
+2025-11-26 02:50:47,155 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6662/0.7239, F1: 0.7997/0.8399
+2025-11-26 02:51:28,457 Robust PCA Network INFO: Epoch-Iter: [273/400]-[0/100] || Lr: 0.000036 || Loss: 0.5690=0.3156+0.0089 || Cost Time: 3:37:46 || Estimated Time: 1:41:18
+2025-11-26 02:51:34,532 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6737/0.7239, F1: 0.8051/0.8399
+2025-11-26 02:52:15,377 Robust PCA Network INFO: Epoch-Iter: [274/400]-[0/100] || Lr: 0.000035 || Loss: 0.3485=0.1920+0.0280 || Cost Time: 3:38:33 || Estimated Time: 1:40:30
+2025-11-26 02:52:21,431 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6685/0.7239, F1: 0.8013/0.8399
+2025-11-26 02:53:03,452 Robust PCA Network INFO: Epoch-Iter: [275/400]-[0/100] || Lr: 0.000035 || Loss: 0.5296=0.2937+0.0091 || Cost Time: 3:39:21 || Estimated Time: 1:39:42
+2025-11-26 02:53:09,055 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6737/0.7239, F1: 0.8050/0.8399
+2025-11-26 02:53:51,163 Robust PCA Network INFO: Epoch-Iter: [276/400]-[0/100] || Lr: 0.000035 || Loss: 0.4840=0.2678+0.0197 || Cost Time: 3:40:09 || Estimated Time: 1:38:54
+2025-11-26 02:53:57,725 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6726/0.7239, F1: 0.8043/0.8399
+2025-11-26 02:54:38,832 Robust PCA Network INFO: Epoch-Iter: [277/400]-[0/100] || Lr: 0.000035 || Loss: 0.3633=0.2002+0.0286 || Cost Time: 3:40:57 || Estimated Time: 1:38:06
+2025-11-26 02:54:44,347 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6691/0.7239, F1: 0.8018/0.8399
+2025-11-26 02:55:26,330 Robust PCA Network INFO: Epoch-Iter: [278/400]-[0/100] || Lr: 0.000034 || Loss: 0.4440=0.2452+0.0253 || Cost Time: 3:41:44 || Estimated Time: 1:37:18
+2025-11-26 02:55:32,187 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6772/0.7239, F1: 0.8075/0.8399
+2025-11-26 02:56:14,045 Robust PCA Network INFO: Epoch-Iter: [279/400]-[0/100] || Lr: 0.000034 || Loss: 0.3854=0.2135+0.0095 || Cost Time: 3:42:32 || Estimated Time: 1:36:30
+2025-11-26 02:56:19,752 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6734/0.7239, F1: 0.8048/0.8399
+2025-11-26 02:57:01,553 Robust PCA Network INFO: Epoch-Iter: [280/400]-[0/100] || Lr: 0.000034 || Loss: 0.6366=0.3527+0.0170 || Cost Time: 3:43:19 || Estimated Time: 1:35:42
+2025-11-26 02:57:07,184 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6716/0.7239, F1: 0.8035/0.8399
+2025-11-26 02:57:49,313 Robust PCA Network INFO: Epoch-Iter: [281/400]-[0/100] || Lr: 0.000034 || Loss: 0.5617=0.3102+0.0335 || Cost Time: 3:44:07 || Estimated Time: 1:34:54
+2025-11-26 02:57:54,969 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6764/0.7239, F1: 0.8070/0.8399
+2025-11-26 02:58:36,974 Robust PCA Network INFO: Epoch-Iter: [282/400]-[0/100] || Lr: 0.000033 || Loss: 0.3859=0.2132+0.0203 || Cost Time: 3:44:55 || Estimated Time: 1:34:07
+2025-11-26 02:58:43,110 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6764/0.7239, F1: 0.8070/0.8399
+2025-11-26 02:59:24,032 Robust PCA Network INFO: Epoch-Iter: [283/400]-[0/100] || Lr: 0.000033 || Loss: 0.4181=0.2314+0.0151 || Cost Time: 3:45:42 || Estimated Time: 1:33:18
+2025-11-26 02:59:29,758 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6785/0.7239, F1: 0.8085/0.8399
+2025-11-26 03:00:12,108 Robust PCA Network INFO: Epoch-Iter: [284/400]-[0/100] || Lr: 0.000033 || Loss: 0.4409=0.2435+0.0263 || Cost Time: 3:46:30 || Estimated Time: 1:32:31
+2025-11-26 03:00:17,682 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6669/0.7239, F1: 0.8001/0.8399
+2025-11-26 03:00:59,421 Robust PCA Network INFO: Epoch-Iter: [285/400]-[0/100] || Lr: 0.000033 || Loss: 0.2275=0.1253+0.0182 || Cost Time: 3:47:17 || Estimated Time: 1:31:42
+2025-11-26 03:01:05,436 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6769/0.7239, F1: 0.8073/0.8399
+2025-11-26 03:01:48,603 Robust PCA Network INFO: Epoch-Iter: [286/400]-[0/100] || Lr: 0.000032 || Loss: 0.4851=0.2680+0.0261 || Cost Time: 3:48:07 || Estimated Time: 1:30:55
+2025-11-26 03:01:55,210 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6683/0.7239, F1: 0.8012/0.8399
+2025-11-26 03:02:36,927 Robust PCA Network INFO: Epoch-Iter: [287/400]-[0/100] || Lr: 0.000032 || Loss: 0.3110=0.1721+0.0118 || Cost Time: 3:48:55 || Estimated Time: 1:30:07
+2025-11-26 03:02:43,078 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6746/0.7239, F1: 0.8057/0.8399
+2025-11-26 03:03:25,112 Robust PCA Network INFO: Epoch-Iter: [288/400]-[0/100] || Lr: 0.000032 || Loss: 0.3849=0.2131+0.0117 || Cost Time: 3:49:43 || Estimated Time: 1:29:20
+2025-11-26 03:03:31,438 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6723/0.7239, F1: 0.8040/0.8399
+2025-11-26 03:04:12,095 Robust PCA Network INFO: Epoch-Iter: [289/400]-[0/100] || Lr: 0.000032 || Loss: 0.5269=0.2922+0.0092 || Cost Time: 3:50:30 || Estimated Time: 1:28:32
+2025-11-26 03:04:17,847 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6704/0.7239, F1: 0.8027/0.8399
+2025-11-26 03:04:59,436 Robust PCA Network INFO: Epoch-Iter: [290/400]-[0/100] || Lr: 0.000031 || Loss: 0.5435=0.3012+0.0130 || Cost Time: 3:51:17 || Estimated Time: 1:27:44
+2025-11-26 03:05:05,495 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6712/0.7239, F1: 0.8033/0.8399
+2025-11-26 03:05:47,067 Robust PCA Network INFO: Epoch-Iter: [291/400]-[0/100] || Lr: 0.000031 || Loss: 0.5253=0.2904+0.0256 || Cost Time: 3:52:05 || Estimated Time: 1:26:56
+2025-11-26 03:05:53,049 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6780/0.7239, F1: 0.8081/0.8399
+2025-11-26 03:06:34,713 Robust PCA Network INFO: Epoch-Iter: [292/400]-[0/100] || Lr: 0.000031 || Loss: 0.4313=0.2385+0.0184 || Cost Time: 3:52:53 || Estimated Time: 1:26:08
+2025-11-26 03:06:40,775 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6770/0.7239, F1: 0.8074/0.8399
+2025-11-26 03:07:22,082 Robust PCA Network INFO: Epoch-Iter: [293/400]-[0/100] || Lr: 0.000031 || Loss: 0.4240=0.2350+0.0089 || Cost Time: 3:53:40 || Estimated Time: 1:25:20
+2025-11-26 03:07:28,156 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6775/0.7239, F1: 0.8077/0.8399
+2025-11-26 03:08:09,625 Robust PCA Network INFO: Epoch-Iter: [294/400]-[0/100] || Lr: 0.000030 || Loss: 0.5032=0.2787+0.0148 || Cost Time: 3:54:28 || Estimated Time: 1:24:32
+2025-11-26 03:08:15,259 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6712/0.7239, F1: 0.8032/0.8399
+2025-11-26 03:08:57,227 Robust PCA Network INFO: Epoch-Iter: [295/400]-[0/100] || Lr: 0.000030 || Loss: 0.3978=0.2202+0.0145 || Cost Time: 3:55:15 || Estimated Time: 1:23:44
+2025-11-26 03:09:03,746 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6722/0.7239, F1: 0.8039/0.8399
+2025-11-26 03:09:45,834 Robust PCA Network INFO: Epoch-Iter: [296/400]-[0/100] || Lr: 0.000030 || Loss: 0.4885=0.2699+0.0273 || Cost Time: 3:56:04 || Estimated Time: 1:22:56
+2025-11-26 03:09:51,406 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6663/0.7239, F1: 0.7997/0.8399
+2025-11-26 03:10:32,940 Robust PCA Network INFO: Epoch-Iter: [297/400]-[0/100] || Lr: 0.000029 || Loss: 0.5371=0.2965+0.0331 || Cost Time: 3:56:51 || Estimated Time: 1:22:08
+2025-11-26 03:10:38,599 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6699/0.7239, F1: 0.8023/0.8399
+2025-11-26 03:11:19,561 Robust PCA Network INFO: Epoch-Iter: [298/400]-[0/100] || Lr: 0.000029 || Loss: 0.4925=0.2727+0.0162 || Cost Time: 3:57:37 || Estimated Time: 1:21:20
+2025-11-26 03:11:26,058 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6712/0.7239, F1: 0.8032/0.8399
+2025-11-26 03:12:08,395 Robust PCA Network INFO: Epoch-Iter: [299/400]-[0/100] || Lr: 0.000029 || Loss: 0.3447=0.1905+0.0170 || Cost Time: 3:58:26 || Estimated Time: 1:20:32
+2025-11-26 03:12:14,539 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6748/0.7239, F1: 0.8058/0.8399
+2025-11-26 03:12:56,226 Robust PCA Network INFO: Epoch-Iter: [300/400]-[0/100] || Lr: 0.000029 || Loss: 0.6213=0.3446+0.0095 || Cost Time: 3:59:14 || Estimated Time: 1:19:44
+2025-11-26 03:13:02,246 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6715/0.7239, F1: 0.8035/0.8399
+2025-11-26 03:13:43,658 Robust PCA Network INFO: Epoch-Iter: [301/400]-[0/100] || Lr: 0.000028 || Loss: 0.3727=0.2060+0.0185 || Cost Time: 4:00:02 || Estimated Time: 1:18:56
+2025-11-26 03:13:50,070 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6693/0.7239, F1: 0.8019/0.8399
+2025-11-26 03:14:31,651 Robust PCA Network INFO: Epoch-Iter: [302/400]-[0/100] || Lr: 0.000028 || Loss: 0.4767=0.2631+0.0308 || Cost Time: 4:00:50 || Estimated Time: 1:18:09
+2025-11-26 03:14:37,765 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6626/0.7239, F1: 0.7971/0.8399
+2025-11-26 03:15:19,621 Robust PCA Network INFO: Epoch-Iter: [303/400]-[0/100] || Lr: 0.000028 || Loss: 0.3907=0.2156+0.0252 || Cost Time: 4:01:38 || Estimated Time: 1:17:21
+2025-11-26 03:15:25,400 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6666/0.7239, F1: 0.7999/0.8399
+2025-11-26 03:16:06,066 Robust PCA Network INFO: Epoch-Iter: [304/400]-[0/100] || Lr: 0.000028 || Loss: 0.4136=0.2290+0.0142 || Cost Time: 4:02:24 || Estimated Time: 1:16:32
+2025-11-26 03:16:12,542 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6732/0.7239, F1: 0.8047/0.8399
+2025-11-26 03:16:54,195 Robust PCA Network INFO: Epoch-Iter: [305/400]-[0/100] || Lr: 0.000027 || Loss: 0.4783=0.2649+0.0143 || Cost Time: 4:03:12 || Estimated Time: 1:15:45
+2025-11-26 03:17:00,134 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6654/0.7239, F1: 0.7991/0.8399
+2025-11-26 03:17:42,550 Robust PCA Network INFO: Epoch-Iter: [306/400]-[0/100] || Lr: 0.000027 || Loss: 0.5517=0.3057+0.0151 || Cost Time: 4:04:00 || Estimated Time: 1:14:57
+2025-11-26 03:17:48,897 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6675/0.7239, F1: 0.8006/0.8399
+2025-11-26 03:18:30,063 Robust PCA Network INFO: Epoch-Iter: [307/400]-[0/100] || Lr: 0.000027 || Loss: 0.5437=0.3014+0.0116 || Cost Time: 4:04:48 || Estimated Time: 1:14:09
+2025-11-26 03:18:35,803 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6709/0.7239, F1: 0.8030/0.8399
+2025-11-26 03:19:18,076 Robust PCA Network INFO: Epoch-Iter: [308/400]-[0/100] || Lr: 0.000027 || Loss: 0.5437=0.3015+0.0101 || Cost Time: 4:05:36 || Estimated Time: 1:13:21
+2025-11-26 03:19:23,689 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6598/0.7239, F1: 0.7951/0.8399
+2025-11-26 03:20:04,209 Robust PCA Network INFO: Epoch-Iter: [309/400]-[0/100] || Lr: 0.000026 || Loss: 0.4369=0.2421+0.0104 || Cost Time: 4:06:22 || Estimated Time: 1:12:33
+2025-11-26 03:20:09,746 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6672/0.7239, F1: 0.8004/0.8399
+2025-11-26 03:20:50,258 Robust PCA Network INFO: Epoch-Iter: [310/400]-[0/100] || Lr: 0.000026 || Loss: 0.4755=0.2629+0.0213 || Cost Time: 4:07:08 || Estimated Time: 1:11:45
+2025-11-26 03:20:56,634 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6647/0.7239, F1: 0.7986/0.8399
+2025-11-26 03:21:37,656 Robust PCA Network INFO: Epoch-Iter: [311/400]-[0/100] || Lr: 0.000026 || Loss: 0.4690=0.2597+0.0140 || Cost Time: 4:07:56 || Estimated Time: 1:10:57
+2025-11-26 03:21:43,059 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6620/0.7239, F1: 0.7966/0.8399
+2025-11-26 03:22:23,510 Robust PCA Network INFO: Epoch-Iter: [312/400]-[0/100] || Lr: 0.000026 || Loss: 0.4114=0.2275+0.0177 || Cost Time: 4:08:41 || Estimated Time: 1:10:08
+2025-11-26 03:22:28,922 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6750/0.7239, F1: 0.8060/0.8399
+2025-11-26 03:23:08,831 Robust PCA Network INFO: Epoch-Iter: [313/400]-[0/100] || Lr: 0.000025 || Loss: 0.6422=0.3560+0.0124 || Cost Time: 4:09:27 || Estimated Time: 1:09:20
+2025-11-26 03:23:14,315 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6669/0.7239, F1: 0.8002/0.8399
+2025-11-26 03:23:54,192 Robust PCA Network INFO: Epoch-Iter: [314/400]-[0/100] || Lr: 0.000025 || Loss: 0.3802=0.2092+0.0358 || Cost Time: 4:10:12 || Estimated Time: 1:08:31
+2025-11-26 03:23:59,592 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6672/0.7239, F1: 0.8004/0.8399
+2025-11-26 03:24:40,569 Robust PCA Network INFO: Epoch-Iter: [315/400]-[0/100] || Lr: 0.000025 || Loss: 0.4194=0.2320+0.0174 || Cost Time: 4:10:58 || Estimated Time: 1:07:43
+2025-11-26 03:24:46,177 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6642/0.7239, F1: 0.7982/0.8399
+2025-11-26 03:25:26,795 Robust PCA Network INFO: Epoch-Iter: [316/400]-[0/100] || Lr: 0.000025 || Loss: 0.4970=0.2752+0.0154 || Cost Time: 4:11:45 || Estimated Time: 1:06:55
+2025-11-26 03:25:32,399 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6638/0.7239, F1: 0.7979/0.8399
+2025-11-26 03:26:13,033 Robust PCA Network INFO: Epoch-Iter: [317/400]-[0/100] || Lr: 0.000024 || Loss: 0.4865=0.2688+0.0253 || Cost Time: 4:12:31 || Estimated Time: 1:06:07
+2025-11-26 03:26:18,577 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6695/0.7239, F1: 0.8020/0.8399
+2025-11-26 03:26:59,178 Robust PCA Network INFO: Epoch-Iter: [318/400]-[0/100] || Lr: 0.000024 || Loss: 0.3128=0.1724+0.0238 || Cost Time: 4:13:17 || Estimated Time: 1:05:18
+2025-11-26 03:27:05,151 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6637/0.7239, F1: 0.7978/0.8399
+2025-11-26 03:27:45,814 Robust PCA Network INFO: Epoch-Iter: [319/400]-[0/100] || Lr: 0.000024 || Loss: 0.5688=0.3144+0.0280 || Cost Time: 4:14:04 || Estimated Time: 1:04:30
+2025-11-26 03:27:51,366 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6645/0.7239, F1: 0.7984/0.8399
+2025-11-26 03:28:32,185 Robust PCA Network INFO: Epoch-Iter: [320/400]-[0/100] || Lr: 0.000023 || Loss: 0.3196=0.1767+0.0156 || Cost Time: 4:14:50 || Estimated Time: 1:03:42
+2025-11-26 03:28:37,578 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6690/0.7239, F1: 0.8017/0.8399
+2025-11-26 03:29:17,416 Robust PCA Network INFO: Epoch-Iter: [321/400]-[0/100] || Lr: 0.000023 || Loss: 0.5088=0.2810+0.0298 || Cost Time: 4:15:35 || Estimated Time: 1:02:54
+2025-11-26 03:29:22,701 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6600/0.7239, F1: 0.7952/0.8399
+2025-11-26 03:30:02,770 Robust PCA Network INFO: Epoch-Iter: [322/400]-[0/100] || Lr: 0.000023 || Loss: 0.3637=0.2011+0.0173 || Cost Time: 4:16:21 || Estimated Time: 1:02:05
+2025-11-26 03:30:08,945 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6664/0.7239, F1: 0.7998/0.8399
+2025-11-26 03:30:49,926 Robust PCA Network INFO: Epoch-Iter: [323/400]-[0/100] || Lr: 0.000023 || Loss: 0.3975=0.2200+0.0147 || Cost Time: 4:17:08 || Estimated Time: 1:01:17
+2025-11-26 03:30:55,488 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6674/0.7239, F1: 0.8005/0.8399
+2025-11-26 03:31:36,025 Robust PCA Network INFO: Epoch-Iter: [324/400]-[0/100] || Lr: 0.000022 || Loss: 0.3172=0.1752+0.0175 || Cost Time: 4:17:54 || Estimated Time: 1:00:29
+2025-11-26 03:31:41,425 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6646/0.7239, F1: 0.7985/0.8399
+2025-11-26 03:32:21,585 Robust PCA Network INFO: Epoch-Iter: [325/400]-[0/100] || Lr: 0.000022 || Loss: 0.4771=0.2632+0.0331 || Cost Time: 4:18:39 || Estimated Time: 0:59:41
+2025-11-26 03:32:26,912 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6671/0.7239, F1: 0.8003/0.8399
+2025-11-26 03:33:06,763 Robust PCA Network INFO: Epoch-Iter: [326/400]-[0/100] || Lr: 0.000022 || Loss: 0.2821=0.1561+0.0098 || Cost Time: 4:19:25 || Estimated Time: 0:58:53
+2025-11-26 03:33:12,093 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6679/0.7239, F1: 0.8009/0.8399
+2025-11-26 03:33:52,009 Robust PCA Network INFO: Epoch-Iter: [327/400]-[0/100] || Lr: 0.000022 || Loss: 0.3452=0.1908+0.0173 || Cost Time: 4:20:10 || Estimated Time: 0:58:04
+2025-11-26 03:33:57,422 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6648/0.7239, F1: 0.7986/0.8399
+2025-11-26 03:34:37,288 Robust PCA Network INFO: Epoch-Iter: [328/400]-[0/100] || Lr: 0.000021 || Loss: 0.3403=0.1881+0.0167 || Cost Time: 4:20:55 || Estimated Time: 0:57:16
+2025-11-26 03:34:42,645 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6673/0.7239, F1: 0.8005/0.8399
+2025-11-26 03:35:23,274 Robust PCA Network INFO: Epoch-Iter: [329/400]-[0/100] || Lr: 0.000021 || Loss: 0.3584=0.1978+0.0231 || Cost Time: 4:21:41 || Estimated Time: 0:56:28
+2025-11-26 03:35:28,664 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6693/0.7239, F1: 0.8019/0.8399
+2025-11-26 03:36:08,650 Robust PCA Network INFO: Epoch-Iter: [330/400]-[0/100] || Lr: 0.000021 || Loss: 0.3703=0.2048+0.0157 || Cost Time: 4:22:27 || Estimated Time: 0:55:40
+2025-11-26 03:36:14,104 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6632/0.7239, F1: 0.7975/0.8399
+2025-11-26 03:36:54,569 Robust PCA Network INFO: Epoch-Iter: [331/400]-[0/100] || Lr: 0.000021 || Loss: 0.5624=0.3119+0.0087 || Cost Time: 4:23:12 || Estimated Time: 0:54:52
+2025-11-26 03:37:00,088 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6663/0.7239, F1: 0.7997/0.8399
+2025-11-26 03:37:40,726 Robust PCA Network INFO: Epoch-Iter: [332/400]-[0/100] || Lr: 0.000020 || Loss: 0.3140=0.1737+0.0130 || Cost Time: 4:23:59 || Estimated Time: 0:54:04
+2025-11-26 03:37:46,188 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6640/0.7239, F1: 0.7980/0.8399
+2025-11-26 03:38:26,498 Robust PCA Network INFO: Epoch-Iter: [333/400]-[0/100] || Lr: 0.000020 || Loss: 0.2721=0.1498+0.0233 || Cost Time: 4:24:44 || Estimated Time: 0:53:16
+2025-11-26 03:38:31,912 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6670/0.7239, F1: 0.8003/0.8399
+2025-11-26 03:39:11,921 Robust PCA Network INFO: Epoch-Iter: [334/400]-[0/100] || Lr: 0.000020 || Loss: 0.5848=0.3243+0.0111 || Cost Time: 4:25:30 || Estimated Time: 0:52:27
+2025-11-26 03:39:17,302 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6707/0.7239, F1: 0.8029/0.8399
+2025-11-26 03:39:58,115 Robust PCA Network INFO: Epoch-Iter: [335/400]-[0/100] || Lr: 0.000019 || Loss: 0.4349=0.2409+0.0122 || Cost Time: 4:26:16 || Estimated Time: 0:51:39
+2025-11-26 03:40:03,719 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6623/0.7239, F1: 0.7969/0.8399
+2025-11-26 03:40:44,251 Robust PCA Network INFO: Epoch-Iter: [336/400]-[0/100] || Lr: 0.000019 || Loss: 0.2577=0.1424+0.0129 || Cost Time: 4:27:02 || Estimated Time: 0:50:51
+2025-11-26 03:40:49,804 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6657/0.7239, F1: 0.7993/0.8399
+2025-11-26 03:41:30,680 Robust PCA Network INFO: Epoch-Iter: [337/400]-[0/100] || Lr: 0.000019 || Loss: 0.5515=0.3055+0.0156 || Cost Time: 4:27:49 || Estimated Time: 0:50:04
+2025-11-26 03:41:36,214 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6738/0.7239, F1: 0.8051/0.8399
+2025-11-26 03:42:16,353 Robust PCA Network INFO: Epoch-Iter: [338/400]-[0/100] || Lr: 0.000019 || Loss: 0.4001=0.2205+0.0320 || Cost Time: 4:28:34 || Estimated Time: 0:49:15
+2025-11-26 03:42:21,756 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6643/0.7239, F1: 0.7983/0.8399
+2025-11-26 03:43:01,897 Robust PCA Network INFO: Epoch-Iter: [339/400]-[0/100] || Lr: 0.000018 || Loss: 0.4689=0.2592+0.0222 || Cost Time: 4:29:20 || Estimated Time: 0:48:27
+2025-11-26 03:43:07,439 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6717/0.7239, F1: 0.8036/0.8399
+2025-11-26 03:43:47,293 Robust PCA Network INFO: Epoch-Iter: [340/400]-[0/100] || Lr: 0.000018 || Loss: 0.3853=0.2131+0.0171 || Cost Time: 4:30:05 || Estimated Time: 0:47:39
+2025-11-26 03:43:52,812 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6693/0.7239, F1: 0.8019/0.8399
+2025-11-26 03:44:32,698 Robust PCA Network INFO: Epoch-Iter: [341/400]-[0/100] || Lr: 0.000018 || Loss: 0.3576=0.1975+0.0204 || Cost Time: 4:30:51 || Estimated Time: 0:46:51
+2025-11-26 03:44:38,093 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6667/0.7239, F1: 0.8000/0.8399
+2025-11-26 03:45:18,509 Robust PCA Network INFO: Epoch-Iter: [342/400]-[0/100] || Lr: 0.000018 || Loss: 0.3472=0.1918+0.0197 || Cost Time: 4:31:36 || Estimated Time: 0:46:03
+2025-11-26 03:45:24,098 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6684/0.7239, F1: 0.8013/0.8399
+2025-11-26 03:46:04,051 Robust PCA Network INFO: Epoch-Iter: [343/400]-[0/100] || Lr: 0.000017 || Loss: 0.3709=0.2045+0.0278 || Cost Time: 4:32:22 || Estimated Time: 0:45:15
+2025-11-26 03:46:09,540 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6713/0.7239, F1: 0.8033/0.8399
+2025-11-26 03:46:50,345 Robust PCA Network INFO: Epoch-Iter: [344/400]-[0/100] || Lr: 0.000017 || Loss: 0.2039=0.1124+0.0140 || Cost Time: 4:33:08 || Estimated Time: 0:44:27
+2025-11-26 03:46:55,883 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6695/0.7239, F1: 0.8020/0.8399
+2025-11-26 03:47:36,561 Robust PCA Network INFO: Epoch-Iter: [345/400]-[0/100] || Lr: 0.000017 || Loss: 0.3760=0.2080+0.0164 || Cost Time: 4:33:54 || Estimated Time: 0:43:40
+2025-11-26 03:47:42,114 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6696/0.7239, F1: 0.8021/0.8399
+2025-11-26 03:48:22,161 Robust PCA Network INFO: Epoch-Iter: [346/400]-[0/100] || Lr: 0.000016 || Loss: 0.5369=0.2972+0.0194 || Cost Time: 4:34:40 || Estimated Time: 0:42:52
+2025-11-26 03:48:27,655 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6703/0.7239, F1: 0.8026/0.8399
+2025-11-26 03:49:08,199 Robust PCA Network INFO: Epoch-Iter: [347/400]-[0/100] || Lr: 0.000016 || Loss: 0.2864=0.1582+0.0151 || Cost Time: 4:35:26 || Estimated Time: 0:42:04
+2025-11-26 03:49:13,795 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6721/0.7239, F1: 0.8039/0.8399
+2025-11-26 03:49:54,339 Robust PCA Network INFO: Epoch-Iter: [348/400]-[0/100] || Lr: 0.000016 || Loss: 0.4447=0.2459+0.0207 || Cost Time: 4:36:12 || Estimated Time: 0:41:16
+2025-11-26 03:49:59,901 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6733/0.7239, F1: 0.8048/0.8399
+2025-11-26 03:50:40,359 Robust PCA Network INFO: Epoch-Iter: [349/400]-[0/100] || Lr: 0.000016 || Loss: 0.3156=0.1748+0.0095 || Cost Time: 4:36:58 || Estimated Time: 0:40:28
+2025-11-26 03:50:45,948 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6720/0.7239, F1: 0.8038/0.8399
+2025-11-26 03:51:26,908 Robust PCA Network INFO: Epoch-Iter: [350/400]-[0/100] || Lr: 0.000015 || Loss: 0.3309=0.1832+0.0109 || Cost Time: 4:37:45 || Estimated Time: 0:39:40
+2025-11-26 03:51:32,457 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6718/0.7239, F1: 0.8037/0.8399
+2025-11-26 03:52:12,835 Robust PCA Network INFO: Epoch-Iter: [351/400]-[0/100] || Lr: 0.000015 || Loss: 0.3304=0.1830+0.0091 || Cost Time: 4:38:31 || Estimated Time: 0:38:52
+2025-11-26 03:52:18,404 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6724/0.7239, F1: 0.8041/0.8399
+2025-11-26 03:52:59,133 Robust PCA Network INFO: Epoch-Iter: [352/400]-[0/100] || Lr: 0.000015 || Loss: 0.2615=0.1439+0.0247 || Cost Time: 4:39:17 || Estimated Time: 0:38:05
+2025-11-26 03:53:04,684 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6718/0.7239, F1: 0.8037/0.8399
+2025-11-26 03:53:45,211 Robust PCA Network INFO: Epoch-Iter: [353/400]-[0/100] || Lr: 0.000015 || Loss: 0.4159=0.2304+0.0105 || Cost Time: 4:40:03 || Estimated Time: 0:37:17
+2025-11-26 03:53:50,587 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6716/0.7239, F1: 0.8035/0.8399
+2025-11-26 03:54:30,988 Robust PCA Network INFO: Epoch-Iter: [354/400]-[0/100] || Lr: 0.000014 || Loss: 0.6083=0.3373+0.0119 || Cost Time: 4:40:49 || Estimated Time: 0:36:29
+2025-11-26 03:54:36,624 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6711/0.7239, F1: 0.8032/0.8399
+2025-11-26 03:55:17,110 Robust PCA Network INFO: Epoch-Iter: [355/400]-[0/100] || Lr: 0.000014 || Loss: 0.3580=0.1982+0.0127 || Cost Time: 4:41:35 || Estimated Time: 0:35:41
+2025-11-26 03:55:22,660 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6708/0.7239, F1: 0.8030/0.8399
+2025-11-26 03:56:03,103 Robust PCA Network INFO: Epoch-Iter: [356/400]-[0/100] || Lr: 0.000014 || Loss: 0.3917=0.2159+0.0302 || Cost Time: 4:42:21 || Estimated Time: 0:34:53
+2025-11-26 03:56:08,486 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6728/0.7239, F1: 0.8044/0.8399
+2025-11-26 03:56:48,766 Robust PCA Network INFO: Epoch-Iter: [357/400]-[0/100] || Lr: 0.000013 || Loss: 0.5503=0.3033+0.0433 || Cost Time: 4:43:07 || Estimated Time: 0:34:06
+2025-11-26 03:56:54,132 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6733/0.7239, F1: 0.8047/0.8399
+2025-11-26 03:57:34,039 Robust PCA Network INFO: Epoch-Iter: [358/400]-[0/100] || Lr: 0.000013 || Loss: 0.4631=0.2562+0.0198 || Cost Time: 4:43:52 || Estimated Time: 0:33:18
+2025-11-26 03:57:39,441 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6726/0.7239, F1: 0.8042/0.8399
+2025-11-26 03:58:19,367 Robust PCA Network INFO: Epoch-Iter: [359/400]-[0/100] || Lr: 0.000013 || Loss: 0.3238=0.1793+0.0104 || Cost Time: 4:44:37 || Estimated Time: 0:32:30
+2025-11-26 03:58:24,929 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6674/0.7239, F1: 0.8005/0.8399
+2025-11-26 03:59:05,255 Robust PCA Network INFO: Epoch-Iter: [360/400]-[0/100] || Lr: 0.000013 || Loss: 0.3351=0.1841+0.0368 || Cost Time: 4:45:23 || Estimated Time: 0:31:42
+2025-11-26 03:59:10,682 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6709/0.7239, F1: 0.8030/0.8399
+2025-11-26 03:59:50,917 Robust PCA Network INFO: Epoch-Iter: [361/400]-[0/100] || Lr: 0.000012 || Loss: 0.3491=0.1914+0.0448 || Cost Time: 4:46:09 || Estimated Time: 0:30:54
+2025-11-26 03:59:56,302 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6712/0.7239, F1: 0.8032/0.8399
+2025-11-26 04:00:36,547 Robust PCA Network INFO: Epoch-Iter: [362/400]-[0/100] || Lr: 0.000012 || Loss: 0.3740=0.2072+0.0108 || Cost Time: 4:46:54 || Estimated Time: 0:30:07
+2025-11-26 04:00:42,049 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6698/0.7239, F1: 0.8023/0.8399
+2025-11-26 04:01:22,031 Robust PCA Network INFO: Epoch-Iter: [363/400]-[0/100] || Lr: 0.000012 || Loss: 0.4961=0.2744+0.0220 || Cost Time: 4:47:40 || Estimated Time: 0:29:19
+2025-11-26 04:01:27,463 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6703/0.7239, F1: 0.8026/0.8399
+2025-11-26 04:02:08,298 Robust PCA Network INFO: Epoch-Iter: [364/400]-[0/100] || Lr: 0.000011 || Loss: 0.2938=0.1616+0.0290 || Cost Time: 4:48:26 || Estimated Time: 0:28:31
+2025-11-26 04:02:13,722 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6711/0.7239, F1: 0.8032/0.8399
+2025-11-26 04:02:53,640 Robust PCA Network INFO: Epoch-Iter: [365/400]-[0/100] || Lr: 0.000011 || Loss: 0.3713=0.2059+0.0060 || Cost Time: 4:49:12 || Estimated Time: 0:27:43
+2025-11-26 04:02:59,046 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6689/0.7239, F1: 0.8016/0.8399
+2025-11-26 04:03:39,006 Robust PCA Network INFO: Epoch-Iter: [366/400]-[0/100] || Lr: 0.000011 || Loss: 0.4525=0.2509+0.0070 || Cost Time: 4:49:57 || Estimated Time: 0:26:56
+2025-11-26 04:03:44,900 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6714/0.7239, F1: 0.8034/0.8399
+2025-11-26 04:04:25,286 Robust PCA Network INFO: Epoch-Iter: [367/400]-[0/100] || Lr: 0.000011 || Loss: 0.5260=0.2915+0.0121 || Cost Time: 4:50:43 || Estimated Time: 0:26:08
+2025-11-26 04:04:30,806 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6701/0.7239, F1: 0.8024/0.8399
+2025-11-26 04:05:10,866 Robust PCA Network INFO: Epoch-Iter: [368/400]-[0/100] || Lr: 0.000010 || Loss: 0.3947=0.2174+0.0338 || Cost Time: 4:51:29 || Estimated Time: 0:25:20
+2025-11-26 04:05:16,436 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6711/0.7239, F1: 0.8031/0.8399
+2025-11-26 04:05:56,462 Robust PCA Network INFO: Epoch-Iter: [369/400]-[0/100] || Lr: 0.000010 || Loss: 0.4761=0.2632+0.0225 || Cost Time: 4:52:14 || Estimated Time: 0:24:33
+2025-11-26 04:06:01,884 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6707/0.7239, F1: 0.8029/0.8399
+2025-11-26 04:06:41,800 Robust PCA Network INFO: Epoch-Iter: [370/400]-[0/100] || Lr: 0.000010 || Loss: 0.7393=0.4099+0.0153 || Cost Time: 4:53:00 || Estimated Time: 0:23:45
+2025-11-26 04:06:47,163 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6708/0.7239, F1: 0.8030/0.8399
+2025-11-26 04:07:27,074 Robust PCA Network INFO: Epoch-Iter: [371/400]-[0/100] || Lr: 0.000009 || Loss: 0.5287=0.2933+0.0067 || Cost Time: 4:53:45 || Estimated Time: 0:22:57
+2025-11-26 04:07:32,468 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6715/0.7239, F1: 0.8034/0.8399
+2025-11-26 04:08:12,415 Robust PCA Network INFO: Epoch-Iter: [372/400]-[0/100] || Lr: 0.000009 || Loss: 0.2388=0.1318+0.0150 || Cost Time: 4:54:30 || Estimated Time: 0:22:10
+2025-11-26 04:08:17,812 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6703/0.7239, F1: 0.8026/0.8399
+2025-11-26 04:08:58,419 Robust PCA Network INFO: Epoch-Iter: [373/400]-[0/100] || Lr: 0.000009 || Loss: 0.4551=0.2520+0.0142 || Cost Time: 4:55:16 || Estimated Time: 0:21:22
+2025-11-26 04:09:03,808 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6692/0.7239, F1: 0.8018/0.8399
+2025-11-26 04:09:44,125 Robust PCA Network INFO: Epoch-Iter: [374/400]-[0/100] || Lr: 0.000009 || Loss: 0.5254=0.2909+0.0179 || Cost Time: 4:56:02 || Estimated Time: 0:20:34
+2025-11-26 04:09:49,729 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6697/0.7239, F1: 0.8021/0.8399
+2025-11-26 04:10:30,673 Robust PCA Network INFO: Epoch-Iter: [375/400]-[0/100] || Lr: 0.000008 || Loss: 0.3159=0.1750+0.0080 || Cost Time: 4:56:49 || Estimated Time: 0:19:47
+2025-11-26 04:10:36,224 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6693/0.7239, F1: 0.8019/0.8399
+2025-11-26 04:11:16,577 Robust PCA Network INFO: Epoch-Iter: [376/400]-[0/100] || Lr: 0.000008 || Loss: 0.5219=0.2894+0.0080 || Cost Time: 4:57:34 || Estimated Time: 0:18:59
+2025-11-26 04:11:22,110 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6707/0.7239, F1: 0.8029/0.8399
+2025-11-26 04:12:02,006 Robust PCA Network INFO: Epoch-Iter: [377/400]-[0/100] || Lr: 0.000008 || Loss: 0.5095=0.2819+0.0195 || Cost Time: 4:58:20 || Estimated Time: 0:18:12
+2025-11-26 04:12:07,455 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6719/0.7239, F1: 0.8037/0.8399
+2025-11-26 04:12:47,335 Robust PCA Network INFO: Epoch-Iter: [378/400]-[0/100] || Lr: 0.000007 || Loss: 0.3221=0.1776+0.0234 || Cost Time: 4:59:05 || Estimated Time: 0:17:24
+2025-11-26 04:12:52,766 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6703/0.7239, F1: 0.8026/0.8399
+2025-11-26 04:13:33,488 Robust PCA Network INFO: Epoch-Iter: [379/400]-[0/100] || Lr: 0.000007 || Loss: 0.4014=0.2213+0.0288 || Cost Time: 4:59:51 || Estimated Time: 0:16:36
+2025-11-26 04:13:39,066 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6713/0.7239, F1: 0.8033/0.8399
+2025-11-26 04:14:19,480 Robust PCA Network INFO: Epoch-Iter: [380/400]-[0/100] || Lr: 0.000007 || Loss: 0.3195=0.1758+0.0308 || Cost Time: 5:00:37 || Estimated Time: 0:15:49
+2025-11-26 04:14:24,977 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6696/0.7239, F1: 0.8021/0.8399
+2025-11-26 04:15:04,858 Robust PCA Network INFO: Epoch-Iter: [381/400]-[0/100] || Lr: 0.000006 || Loss: 0.2942=0.1623+0.0213 || Cost Time: 5:01:23 || Estimated Time: 0:15:01
+2025-11-26 04:15:10,265 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6707/0.7239, F1: 0.8029/0.8399
+2025-11-26 04:15:50,472 Robust PCA Network INFO: Epoch-Iter: [382/400]-[0/100] || Lr: 0.000006 || Loss: 0.6248=0.3461+0.0173 || Cost Time: 5:02:08 || Estimated Time: 0:14:14
+2025-11-26 04:15:55,978 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6692/0.7239, F1: 0.8018/0.8399
+2025-11-26 04:16:36,985 Robust PCA Network INFO: Epoch-Iter: [383/400]-[0/100] || Lr: 0.000006 || Loss: 0.4620=0.2561+0.0103 || Cost Time: 5:02:55 || Estimated Time: 0:13:26
+2025-11-26 04:16:42,583 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6712/0.7239, F1: 0.8033/0.8399
+2025-11-26 04:17:23,609 Robust PCA Network INFO: Epoch-Iter: [384/400]-[0/100] || Lr: 0.000006 || Loss: 0.3442=0.1904+0.0149 || Cost Time: 5:03:42 || Estimated Time: 0:12:39
+2025-11-26 04:17:29,062 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6714/0.7239, F1: 0.8034/0.8399
+2025-11-26 04:18:09,023 Robust PCA Network INFO: Epoch-Iter: [385/400]-[0/100] || Lr: 0.000005 || Loss: 0.4348=0.2406+0.0157 || Cost Time: 5:04:27 || Estimated Time: 0:11:51
+2025-11-26 04:18:14,613 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6711/0.7239, F1: 0.8032/0.8399
+2025-11-26 04:18:55,195 Robust PCA Network INFO: Epoch-Iter: [386/400]-[0/100] || Lr: 0.000005 || Loss: 0.4953=0.2742+0.0167 || Cost Time: 5:05:13 || Estimated Time: 0:11:04
+2025-11-26 04:19:00,755 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6691/0.7239, F1: 0.8018/0.8399
+2025-11-26 04:19:41,035 Robust PCA Network INFO: Epoch-Iter: [387/400]-[0/100] || Lr: 0.000005 || Loss: 0.3175=0.1755+0.0153 || Cost Time: 5:05:59 || Estimated Time: 0:10:16
+2025-11-26 04:19:46,406 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6704/0.7239, F1: 0.8027/0.8399
+2025-11-26 04:20:26,321 Robust PCA Network INFO: Epoch-Iter: [388/400]-[0/100] || Lr: 0.000004 || Loss: 0.4188=0.2320+0.0107 || Cost Time: 5:06:44 || Estimated Time: 0:09:29
+2025-11-26 04:20:31,786 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6712/0.7239, F1: 0.8032/0.8399
+2025-11-26 04:21:12,614 Robust PCA Network INFO: Epoch-Iter: [389/400]-[0/100] || Lr: 0.000004 || Loss: 0.5045=0.2798+0.0092 || Cost Time: 5:07:31 || Estimated Time: 0:08:41
+2025-11-26 04:21:18,201 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6709/0.7239, F1: 0.8030/0.8399
+2025-11-26 04:21:58,800 Robust PCA Network INFO: Epoch-Iter: [390/400]-[0/100] || Lr: 0.000004 || Loss: 0.6735=0.3733+0.0145 || Cost Time: 5:08:17 || Estimated Time: 0:07:54
+2025-11-26 04:22:04,481 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6695/0.7239, F1: 0.8020/0.8399
+2025-11-26 04:22:45,070 Robust PCA Network INFO: Epoch-Iter: [391/400]-[0/100] || Lr: 0.000003 || Loss: 0.4113=0.2277+0.0136 || Cost Time: 5:09:03 || Estimated Time: 0:07:06
+2025-11-26 04:22:50,604 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6659/0.7239, F1: 0.7994/0.8399
+2025-11-26 04:23:30,708 Robust PCA Network INFO: Epoch-Iter: [392/400]-[0/100] || Lr: 0.000003 || Loss: 0.3417=0.1890+0.0130 || Cost Time: 5:09:49 || Estimated Time: 0:06:19
+2025-11-26 04:23:36,170 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6670/0.7239, F1: 0.8002/0.8399
+2025-11-26 04:24:16,082 Robust PCA Network INFO: Epoch-Iter: [393/400]-[0/100] || Lr: 0.000003 || Loss: 0.2784=0.1543+0.0056 || Cost Time: 5:10:34 || Estimated Time: 0:05:31
+2025-11-26 04:24:21,519 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6679/0.7239, F1: 0.8009/0.8399
+2025-11-26 04:25:01,461 Robust PCA Network INFO: Epoch-Iter: [394/400]-[0/100] || Lr: 0.000002 || Loss: 0.4343=0.2403+0.0174 || Cost Time: 5:11:19 || Estimated Time: 0:04:44
+2025-11-26 04:25:06,975 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6682/0.7239, F1: 0.8011/0.8399
+2025-11-26 04:25:47,194 Robust PCA Network INFO: Epoch-Iter: [395/400]-[0/100] || Lr: 0.000002 || Loss: 0.3917=0.2169+0.0113 || Cost Time: 5:12:05 || Estimated Time: 0:03:57
+2025-11-26 04:25:52,894 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6686/0.7239, F1: 0.8014/0.8399
+2025-11-26 04:26:33,114 Robust PCA Network INFO: Epoch-Iter: [396/400]-[0/100] || Lr: 0.000002 || Loss: 0.4034=0.2223+0.0323 || Cost Time: 5:12:51 || Estimated Time: 0:03:09
+2025-11-26 04:26:38,530 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6683/0.7239, F1: 0.8012/0.8399
+2025-11-26 04:27:18,982 Robust PCA Network INFO: Epoch-Iter: [397/400]-[0/100] || Lr: 0.000001 || Loss: 0.5987=0.3321+0.0087 || Cost Time: 5:13:37 || Estimated Time: 0:02:22
+2025-11-26 04:27:24,392 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6685/0.7239, F1: 0.8013/0.8399
+2025-11-26 04:28:04,434 Robust PCA Network INFO: Epoch-Iter: [398/400]-[0/100] || Lr: 0.000001 || Loss: 0.4392=0.2432+0.0138 || Cost Time: 5:14:22 || Estimated Time: 0:01:34
+2025-11-26 04:28:09,884 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6682/0.7239, F1: 0.8011/0.8399
+2025-11-26 04:28:49,795 Robust PCA Network INFO: Epoch-Iter: [399/400]-[0/100] || Lr: 0.000000 || Loss: 0.2933=0.1617+0.0219 || Cost Time: 5:15:08 || Estimated Time: 0:00:47
+2025-11-26 04:28:55,185 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6682/0.7239, F1: 0.8011/0.8399
+2025-11-26 04:29:35,411 Robust PCA Network INFO: Epoch-Iter: [400/400]-[0/100] || Lr: 0.000000 || Loss: 0.4201=0.2309+0.0451 || Cost Time: 5:15:53 || Estimated Time: 0:00:00
+2025-11-26 04:29:40,780 Robust PCA Network INFO: Data: irstd1k, mIoU: 0.6679/0.7239, F1: 0.8009/0.8399
