@@ -144,7 +144,7 @@ In the cal_from_mask.py file, you can calculate metrics such as mIoU, F1, Pd, an
 
 ### Model Zoo
 
-The `checkpoints` folder contains the weights for four datasets.
+The `checkpoints` folder contains the weights for IRDST-1K dataset.
 
 ## 🚀 Future Work
 ### 1. Exploring Deep Supervision. 
