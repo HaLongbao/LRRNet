@@ -1,4 +1,4 @@
-# ✨  It’s Not the Target, It’s the Background: Rethinking Infrared Small Target Detection via Deep Patch-Free Low-Rank Representations
+# ✨ [TGRS'25] It’s Not the Target, It’s the Background: Rethinking Infrared Small Target Detection via Deep Patch-Free Low-Rank Representations
 
 
 > **Authors:** Zhang, Guoyi and Xu, Guangsheng and Chen, Siyang and Wang, Han and Zhang, Xiaohu  
